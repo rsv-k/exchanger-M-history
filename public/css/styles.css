@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ECF0F5;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    margin: 20px auto;
+    width: 130px;
+}
+.btn {
+    background: none;
+    outline: 0;
+    width: 60px;
+    padding: 10px;
+}
+.table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.active {
+    background: #3C8DBC;
+}
+.sale {
+    background: #00A65A;
+    color: #fff;
+}
+
+.buy {
+    background: #00C0EF;
+    color: #fff;
+}
+
+.bank {
+    display: flex;
+}
+.bank__title {
+    margin-left: 5px;
+}
+
+.pagination {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pagination__btn {
+    text-decoration: none;
+    border: 1px solid grey;
+    background: #00C0EF;
+    padding: 5px;
+    color: #fff;
+}
+
+.pagination__current {
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+@media (max-width: 996px) {
+    .img {
+        display: none;
+    }
+    .table th, td {
+        padding: 0;
+    }
+}

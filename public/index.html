@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Currencies</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="buttons">
+                <div class="wmcurrencies">
+                    <button class = 'btn wmBtn active' id = "wmr"><img src="./Content/Images/currencies/wmr.png" alt="">WMR</button>
+                    <button class = 'btn wmBtn' id = "wmz"><img src="./Content/Images/currencies/wmz.png" alt="">WMZ</button>
+                </div>
+                <div class="realcurrencies">
+                    <button class = 'btn rlBtn active' id = "rub"><img src="./Content/Images/currencies/rub.png" alt="">RUB</button>
+                    <button class = 'btn rlBtn' id = "uah"><img src="./Content/Images/currencies/uah.png" alt="">UAH</button>
+                </div>
+            </div>
+        </div>
+        <table class = 'table'></table>
+        <div class = 'pagination'>
+            <a class = 'pagination__btn' href="#">First</a>
+            <a class = 'pagination__btn' href="#">Previous</a>
+            <span class = 'pagination__current'>1</span>
+            <a class = 'pagination__btn' href="#">Next</a>
+            <a class = 'pagination__btn' href="#">Last</a>
+        </div>
+    </div>
+</body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = '/scripts/main.js'></script>
+</html>
