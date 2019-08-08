@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const port = process.env.port || 3000;
+const port = process.env.port;
 
 const request = require('request');
 const history = {
