@@ -1,5 +1,101 @@
 [
     {
+        "FinishedAt": "08.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1000,00",
+        "Amount": "25050,00",
+        "Rate": 25.05,
+        "RateFormatted": "25,05 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:13",
+        "BidsHistoryType": "sale",
+        "AmountWm": "500,00",
+        "Amount": "12675,00",
+        "Rate": 25.35,
+        "RateFormatted": "25,35 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "300,00",
+        "Amount": "7590,00",
+        "Rate": 25.3,
+        "RateFormatted": "25,30 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:07",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1000,00",
+        "Amount": "25050,00",
+        "Rate": 25.05,
+        "RateFormatted": "25,05 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:06",
+        "BidsHistoryType": "sale",
+        "AmountWm": "60,00",
+        "Amount": "1530,00",
+        "Rate": 25.5,
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 12:56",
+        "BidsHistoryType": "sale",
+        "AmountWm": "500,00",
+        "Amount": "12675,00",
+        "Rate": 25.35,
+        "RateFormatted": "25,35 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
         "FinishedAt": "08.08.2019 12:39",
         "BidsHistoryType": "buy",
         "AmountWm": "550,00",

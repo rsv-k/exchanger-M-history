@@ -12,9 +12,11 @@ body {
 }
 
 .header {
-    margin: 20px auto;
-    width: 130px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
 }
+
 .btn {
     background: none;
     outline: 0;
@@ -23,13 +25,15 @@ body {
 }
 .table {
     margin: 0 auto;
+    
+    table-layout: auto;
     width: 80%;
 }
+
 
 .table td, th {
     border: 1px solid black;
     padding: 5px;
-    table-layout: fixed;
 }
 
 .active {
@@ -76,13 +80,10 @@ body {
     .img {
         display: none;
     }
-    .table th, td {
-        padding: 10px;
-    }
     * {
         font-size: 0.95em;
     }
-    .bank {
-        padding: 15px;
+    .bank__title {
+        margin: 0;
     }
 }

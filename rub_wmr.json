@@ -1,5 +1,149 @@
 [
     {
+        "FinishedAt": "08.08.2019 13:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10500,00",
+        "Amount": "10000,00",
+        "Rate": 5,
+        "RateFormatted": "+5,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:07",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10900,00",
+        "Amount": "10188,00",
+        "Rate": 6.99,
+        "RateFormatted": "+6,99",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Нижний Новгород)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "52325,00",
+        "Amount": "50000,00",
+        "Rate": 4.65,
+        "RateFormatted": "+4,65",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Владимир)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:04",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10490,00",
+        "Amount": "10000,00",
+        "Rate": 4.9,
+        "RateFormatted": "+4,90",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "52325,00",
+        "Amount": "50000,00",
+        "Rate": 4.65,
+        "RateFormatted": "+4,65",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Владимир)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 12:58",
+        "BidsHistoryType": "buy",
+        "AmountWm": "20980,00",
+        "Amount": "20000,00",
+        "Rate": 4.9,
+        "RateFormatted": "+4,90",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 12:56",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10450,00",
+        "Amount": "10000,00",
+        "Rate": 4.5,
+        "RateFormatted": "+4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 12:56",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10490,00",
+        "Amount": "10000,00",
+        "Rate": 4.9,
+        "RateFormatted": "+4,90",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "08.08.2019 12:51",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30000,00",
+        "Amount": "28650,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
         "FinishedAt": "08.08.2019 12:49",
         "BidsHistoryType": "buy",
         "AmountWm": "15900,00",
