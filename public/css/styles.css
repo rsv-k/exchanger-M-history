@@ -29,6 +29,7 @@ body {
 .table td, th {
     border: 1px solid black;
     padding: 5px;
+    table-layout: fixed;
 }
 
 .active {
@@ -76,6 +77,12 @@ body {
         display: none;
     }
     .table th, td {
-        padding: 0;
+        padding: 10px;
+    }
+    * {
+        font-size: 0.95em;
+    }
+    .bank {
+        padding: 15px;
     }
 }
