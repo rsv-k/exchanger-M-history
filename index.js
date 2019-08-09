@@ -25,10 +25,6 @@ app.get('/history/rub-wmr/api', (req, res) => res.send(JSON.stringify(history.RU
 app.get('/history/rub-wmz/api', (req, res) => res.send(JSON.stringify(history.RUB_WMZ)) );
 app.get('/history/uah-wmr/api', (req, res) => res.send(JSON.stringify(history.UAH_WMR)) );
 app.get('/history/uah-wmz/api', (req, res) => res.send(JSON.stringify(history.UAH_WMZ)) );
-app.get('/paths/graphics', (req, res) => {
-    res.send('<h1>And again</h1>');
-    console.log(document.querySelector('h1'));
-})
 
 app.listen(port, () => console.log(`istening on port ${port}!`));
 
@@ -47,12 +43,11 @@ function saveData(data, toWhere) {
     if (fs.statSync(filePath).size !== 0) history[toWhere] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
     for (let i = data.length - 1; i >= 0; i--) {
+        makeRatePrecise(data[i]);
         if (JSON.stringify(history[toWhere]).includes(JSON.stringify(data[i]))) continue;
         
         history[toWhere] = [data[i], ...history[toWhere]];
     }
-    
-    makeRatePrecise(history[toWhere]);
     
     fs.writeFile(filePath, JSON.stringify(history[toWhere], null, 4), err => {
         if (err) return console.log(err);
@@ -64,13 +59,11 @@ function reqeustCurrenciesData() {
     getCurrencyData(73, 'UAH_WMR');
     getCurrencyData(69, 'UAH_WMZ');
 }
-function makeRatePrecise(transactions) {
-    for (let i = 0; i < transactions.length; i++) {
-        if (transactions[i].RateFormatted.includes("+") || transactions[i].RateFormatted.includes("-")) break;
+function makeRatePrecise(data) {
+    if (data.RateFormatted.includes("+") || data.RateFormatted.includes("-")) return;
 
-        let preciseRate = (transactions[i].Amount.replace(',', '.') / transactions[i].AmountWm.replace(',', '.')).toFixed(4);
-        if (transactions[i].Rate === preciseRate) break;
+    let preciseRate = (data.Amount.replace(',', '.') / data.AmountWm.replace(',', '.')).toFixed(4);
+    if (data.Rate === preciseRate) return;
 
-        transactions[i].Rate = preciseRate;
-    }
+    data.Rate = preciseRate;
 }
