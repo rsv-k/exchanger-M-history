@@ -32,7 +32,7 @@ function getCurrencyData(id, currency) {
     request(`https://exchanger.money/cards/bids/bidshistorylist?Id=${id}`, (err, res, body) => {
         if (err) return console.error(err);
         const data = JSON.parse(body).Bids;
-
+        
         saveData(data, currency);
     });
 }
@@ -40,13 +40,15 @@ function getCurrencyData(id, currency) {
 function saveData(data, toWhere) {
     let filePath = `./${toWhere.toLowerCase()}.json`;
 
-    if (fs.statSync(filePath).size !== 0) 
-        history[toWhere] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    if (fs.statSync(filePath).size !== 0) history[toWhere] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
     for (let i = data.length - 1; i >= 0; i--) {
         if (JSON.stringify(history[toWhere]).includes(JSON.stringify(data[i]))) continue;
+        
         history[toWhere] = [data[i], ...history[toWhere]];
     }
+    
+    makeRatePrecise(history[toWhere]);
     
     fs.writeFile(filePath, JSON.stringify(history[toWhere], null, 4), err => {
         if (err) return console.log(err);
@@ -57,4 +59,14 @@ function reqeustCurrenciesData() {
     getCurrencyData(67, 'RUB_WMZ');
     getCurrencyData(73, 'UAH_WMR');
     getCurrencyData(69, 'UAH_WMZ');
+}
+function makeRatePrecise(transactions) {
+    for (let i = 0; i < transactions.length; i++) {
+        if (transactions[i].RateFormatted.includes("+") || transactions[i].RateFormatted.includes("-")) break;
+
+        let preciseRate = (transactions[i].Amount.replace(',', '.') / transactions[i].AmountWm.replace(',', '.')).toFixed(4);
+        if (transactions[i].Rate === preciseRate) break;
+
+        transactions[i].Rate = preciseRate;
+    }
 }

@@ -1,10 +1,1786 @@
 [
     {
+        "FinishedAt": "09.08.2019 12:11",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15,00",
+        "Amount": "366,00",
+        "Rate": "24.4000",
+        "RateFormatted": "24,40 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30,00",
+        "Amount": "766,00",
+        "Rate": "25.5333",
+        "RateFormatted": "25,53 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30,00",
+        "Amount": "766,00",
+        "Rate": "25.5333",
+        "RateFormatted": "25,53 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30,00",
+        "Amount": "766,00",
+        "Rate": "25.5333",
+        "RateFormatted": "25,53 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30,00",
+        "Amount": "766,00",
+        "Rate": "25.5333",
+        "RateFormatted": "25,53 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "75,00",
+        "Amount": "1870,00",
+        "Rate": "24.9333",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2490,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "290,00",
+        "Amount": "7322,00",
+        "Rate": "25.2483",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "554,00",
+        "Amount": "14000,00",
+        "Rate": "25.2708",
+        "RateFormatted": "25,27 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк (для выплат)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "30,00",
+        "Amount": "742,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2490,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "290,00",
+        "Amount": "7322,00",
+        "Rate": "25.2483",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2490,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "290,00",
+        "Amount": "7322,00",
+        "Rate": "25.2483",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:11",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5,50",
+        "Amount": "138,00",
+        "Rate": "25.0909",
+        "RateFormatted": "25,09 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:59",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2490,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "290,00",
+        "Amount": "7322,00",
+        "Rate": "25.2483",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:11",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5,50",
+        "Amount": "138,00",
+        "Rate": "25.0909",
+        "RateFormatted": "25,09 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:59",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:22",
+        "BidsHistoryType": "sale",
+        "AmountWm": "100,00",
+        "Amount": "2525,00",
+        "Rate": "25.2500",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "45,00",
+        "Amount": "1121,85",
+        "Rate": "24.9300",
+        "RateFormatted": "24,93 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:19",
+        "BidsHistoryType": "buy",
+        "AmountWm": "65,00",
+        "Amount": "1605,50",
+        "Rate": "24.7000",
+        "RateFormatted": "24,70 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "220,00",
+        "Amount": "5480,20",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "96,78",
+        "Amount": "2400,00",
+        "Rate": "24.7985",
+        "RateFormatted": "24,80 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:03",
+        "BidsHistoryType": "buy",
+        "AmountWm": "270,00",
+        "Amount": "6725,70",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2490,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "290,00",
+        "Amount": "7322,00",
+        "Rate": "25.2483",
+        "RateFormatted": "25,25 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:11",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5,50",
+        "Amount": "138,00",
+        "Rate": "25.0909",
+        "RateFormatted": "25,09 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:59",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10,00",
+        "Amount": "247,50",
+        "Rate": "24.7500",
+        "RateFormatted": "24,75 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
         "FinishedAt": "08.08.2019 14:04",
         "BidsHistoryType": "buy",
         "AmountWm": "32,23",
         "Amount": "800,00",
-        "Rate": 24.82,
+        "Rate": "24.8216",
         "RateFormatted": "24,82 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -20,7 +1796,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "123,75",
-        "Rate": 24.75,
+        "Rate": "24.7500",
         "RateFormatted": "24,75 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -36,7 +1812,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "300,00",
         "Amount": "7575,00",
-        "Rate": 25.25,
+        "Rate": "25.2500",
         "RateFormatted": "25,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -52,7 +1828,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "6,00",
         "Amount": "147,00",
-        "Rate": 24.5,
+        "Rate": "24.5000",
         "RateFormatted": "24,50 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -68,7 +1844,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1247,00",
-        "Rate": 24.94,
+        "Rate": "24.9400",
         "RateFormatted": "24,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -84,7 +1860,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "25050,00",
-        "Rate": 25.05,
+        "Rate": "25.0500",
         "RateFormatted": "25,05 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -100,7 +1876,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "12675,00",
-        "Rate": 25.35,
+        "Rate": "25.3500",
         "RateFormatted": "25,35 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -116,7 +1892,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "300,00",
         "Amount": "7590,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -132,7 +1908,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "25050,00",
-        "Rate": 25.05,
+        "Rate": "25.0500",
         "RateFormatted": "25,05 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -148,7 +1924,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "60,00",
         "Amount": "1530,00",
-        "Rate": 25.5,
+        "Rate": "25.5000",
         "RateFormatted": "25,50 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -164,7 +1940,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "12675,00",
-        "Rate": 25.35,
+        "Rate": "25.3500",
         "RateFormatted": "25,35 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -180,7 +1956,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "550,00",
         "Amount": "13832,50",
-        "Rate": 25.15,
+        "Rate": "25.1500",
         "RateFormatted": "25,15 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -196,7 +1972,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5002,00",
-        "Rate": 25.01,
+        "Rate": "25.0100",
         "RateFormatted": "25,01 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -212,7 +1988,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5002,00",
-        "Rate": 25.01,
+        "Rate": "25.0100",
         "RateFormatted": "25,01 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -228,7 +2004,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2502,00",
-        "Rate": 25.02,
+        "Rate": "25.0200",
         "RateFormatted": "25,02 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -244,7 +2020,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "72,44",
         "Amount": "1800,00",
-        "Rate": 24.85,
+        "Rate": "24.8482",
         "RateFormatted": "24,85 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -260,7 +2036,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "37,00",
         "Amount": "917,60",
-        "Rate": 24.8,
+        "Rate": "24.8000",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -276,7 +2052,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "247,50",
-        "Rate": 24.75,
+        "Rate": "24.7500",
         "RateFormatted": "24,75 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -292,7 +2068,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "13,00",
         "Amount": "335,20",
-        "Rate": 25.78,
+        "Rate": "25.7846",
         "RateFormatted": "25,78 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -308,7 +2084,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2502,00",
-        "Rate": 25.02,
+        "Rate": "25.0200",
         "RateFormatted": "25,02 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -324,7 +2100,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "3,00",
         "Amount": "70,00",
-        "Rate": 23.33,
+        "Rate": "23.3333",
         "RateFormatted": "23,33 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -340,7 +2116,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "240,00",
         "Amount": "5978,40",
-        "Rate": 24.91,
+        "Rate": "24.9100",
         "RateFormatted": "24,91 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -356,7 +2132,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "13,00",
         "Amount": "320,58",
-        "Rate": 24.66,
+        "Rate": "24.6600",
         "RateFormatted": "24,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -372,7 +2148,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "12700,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -388,7 +2164,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "495,00",
-        "Rate": 24.75,
+        "Rate": "24.7500",
         "RateFormatted": "24,75 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -404,7 +2180,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "11,00",
         "Amount": "271,26",
-        "Rate": 24.66,
+        "Rate": "24.6600",
         "RateFormatted": "24,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -420,7 +2196,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "6,00",
         "Amount": "154,90",
-        "Rate": 25.82,
+        "Rate": "25.8167",
         "RateFormatted": "25,82 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -436,7 +2212,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "101,62",
         "Amount": "2500,00",
-        "Rate": 24.6,
+        "Rate": "24.6015",
         "RateFormatted": "24,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -452,7 +2228,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "9,00",
         "Amount": "218,25",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -468,7 +2244,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12550,00",
-        "Rate": 25.1,
+        "Rate": "25.1000",
         "RateFormatted": "25,10 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -484,7 +2260,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "600,00",
         "Amount": "15000,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -500,7 +2276,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2530,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -516,7 +2292,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "495,00",
-        "Rate": 24.75,
+        "Rate": "24.7500",
         "RateFormatted": "24,75 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -532,7 +2308,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "40,00",
         "Amount": "997,20",
-        "Rate": 24.93,
+        "Rate": "24.9300",
         "RateFormatted": "24,93 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -548,7 +2324,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2540,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -564,7 +2340,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "1276,00",
-        "Rate": 25.52,
+        "Rate": "25.5200",
         "RateFormatted": "25,52 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -580,7 +2356,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10180,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -596,7 +2372,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "9,00",
         "Amount": "243,00",
-        "Rate": 27,
+        "Rate": "27.0000",
         "RateFormatted": "27,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -612,7 +2388,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "20,00",
         "Amount": "512,00",
-        "Rate": 25.6,
+        "Rate": "25.6000",
         "RateFormatted": "25,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -628,7 +2404,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "5,00",
         "Amount": "128,30",
-        "Rate": 25.66,
+        "Rate": "25.6600",
         "RateFormatted": "25,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -644,7 +2420,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "7500,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -660,7 +2436,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "56,00",
         "Amount": "1378,00",
-        "Rate": 24.61,
+        "Rate": "24.6071",
         "RateFormatted": "24,61 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -676,7 +2452,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "123,75",
-        "Rate": 24.75,
+        "Rate": "24.7500",
         "RateFormatted": "24,75 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -692,7 +2468,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "14,00",
         "Amount": "345,24",
-        "Rate": 24.66,
+        "Rate": "24.6600",
         "RateFormatted": "24,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -708,7 +2484,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "120,00",
         "Amount": "2990,40",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -724,7 +2500,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "12700,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -740,7 +2516,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "249,20",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -756,7 +2532,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1246,00",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -772,7 +2548,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "5,00",
         "Amount": "128,30",
-        "Rate": 25.66,
+        "Rate": "25.6600",
         "RateFormatted": "25,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -788,7 +2564,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "220,00",
         "Amount": "5480,00",
-        "Rate": 24.91,
+        "Rate": "24.9091",
         "RateFormatted": "24,91 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -804,7 +2580,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "85,00",
         "Amount": "2118,20",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -820,7 +2596,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "1265,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -836,7 +2612,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5000,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -852,7 +2628,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "496,00",
-        "Rate": 24.8,
+        "Rate": "24.8000",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -868,7 +2644,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5040,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -884,7 +2660,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "550,80",
         "Amount": "14320,95",
-        "Rate": 26,
+        "Rate": "26.0003",
         "RateFormatted": "26,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -900,7 +2676,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "34,00",
         "Amount": "843,20",
-        "Rate": 24.8,
+        "Rate": "24.8000",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -916,7 +2692,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "13,00",
         "Amount": "320,40",
-        "Rate": 24.65,
+        "Rate": "24.6462",
         "RateFormatted": "24,65 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -932,7 +2708,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "498,40",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -948,7 +2724,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12600,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -964,7 +2740,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12540,00",
-        "Rate": 25.08,
+        "Rate": "25.0800",
         "RateFormatted": "25,08 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -980,7 +2756,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2540,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -996,7 +2772,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2500,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1012,7 +2788,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "6,00",
         "Amount": "145,00",
-        "Rate": 24.17,
+        "Rate": "24.1667",
         "RateFormatted": "24,17 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1028,7 +2804,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "26,00",
         "Amount": "640,80",
-        "Rate": 24.65,
+        "Rate": "24.6462",
         "RateFormatted": "24,65 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1044,7 +2820,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "249,20",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1060,7 +2836,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5002,00",
-        "Rate": 25.01,
+        "Rate": "25.0100",
         "RateFormatted": "25,01 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1076,7 +2852,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "160,00",
         "Amount": "4000,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1092,7 +2868,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "90,00",
         "Amount": "2290,50",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1108,7 +2884,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "782,00",
         "Amount": "19790,00",
-        "Rate": 25.31,
+        "Rate": "25.3069",
         "RateFormatted": "25,31 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1124,7 +2900,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "20,00",
         "Amount": "500,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1140,7 +2916,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "39,00",
         "Amount": "967,95",
-        "Rate": 24.82,
+        "Rate": "24.8192",
         "RateFormatted": "24,82 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1156,7 +2932,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "7521,00",
-        "Rate": 25.07,
+        "Rate": "25.0700",
         "RateFormatted": "25,07 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1172,7 +2948,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2508,00",
-        "Rate": 25.08,
+        "Rate": "25.0800",
         "RateFormatted": "25,08 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1188,7 +2964,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2530,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1204,7 +2980,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "175,00",
         "Amount": "4425,00",
-        "Rate": 25.29,
+        "Rate": "25.2857",
         "RateFormatted": "25,29 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1220,7 +2996,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "9,00",
         "Amount": "218,25",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1236,7 +3012,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1246,00",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1252,7 +3028,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "938,00",
         "Amount": "23748,00",
-        "Rate": 25.32,
+        "Rate": "25.3177",
         "RateFormatted": "25,32 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1268,7 +3044,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "8,00",
         "Amount": "195,00",
-        "Rate": 24.38,
+        "Rate": "24.3750",
         "RateFormatted": "24,38 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1284,7 +3060,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "120,00",
         "Amount": "3113,00",
-        "Rate": 25.94,
+        "Rate": "25.9417",
         "RateFormatted": "25,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1300,7 +3076,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "60,00",
         "Amount": "1527,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1316,7 +3092,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "255,00",
-        "Rate": 25.5,
+        "Rate": "25.5000",
         "RateFormatted": "25,50 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1332,7 +3108,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "200,00",
         "Amount": "5080,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1348,7 +3124,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10180,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1364,7 +3140,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2544,00",
-        "Rate": 25.44,
+        "Rate": "25.4400",
         "RateFormatted": "25,44 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1380,7 +3156,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "15,00",
         "Amount": "383,70",
-        "Rate": 25.58,
+        "Rate": "25.5800",
         "RateFormatted": "25,58 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1396,7 +3172,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "25200,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1412,7 +3188,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "150,00",
         "Amount": "3774,00",
-        "Rate": 25.16,
+        "Rate": "25.1600",
         "RateFormatted": "25,16 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1428,7 +3204,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10180,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1444,7 +3220,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "80,00",
         "Amount": "2008,00",
-        "Rate": 25.1,
+        "Rate": "25.1000",
         "RateFormatted": "25,10 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1460,7 +3236,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "21,60",
         "Amount": "546,48",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1476,7 +3252,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "3,75",
         "Amount": "90,00",
-        "Rate": 24,
+        "Rate": "24.0000",
         "RateFormatted": "24,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1492,7 +3268,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2508,00",
-        "Rate": 25.08,
+        "Rate": "25.0800",
         "RateFormatted": "25,08 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1508,7 +3284,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "1260,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1524,7 +3300,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1254,00",
-        "Rate": 25.08,
+        "Rate": "25.0800",
         "RateFormatted": "25,08 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1540,7 +3316,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "8,00",
         "Amount": "205,00",
-        "Rate": 25.62,
+        "Rate": "25.6250",
         "RateFormatted": "25,62 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1556,7 +3332,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1,00",
         "Amount": "24,00",
-        "Rate": 24,
+        "Rate": "24.0000",
         "RateFormatted": "24,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1572,7 +3348,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "13,00",
         "Amount": "320,40",
-        "Rate": 24.65,
+        "Rate": "24.6462",
         "RateFormatted": "24,65 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1588,7 +3364,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2520,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1604,7 +3380,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "55,00",
         "Amount": "1370,60",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1620,7 +3396,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "165,00",
         "Amount": "4116,75",
-        "Rate": 24.95,
+        "Rate": "24.9500",
         "RateFormatted": "24,95 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1636,7 +3412,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "300,00",
         "Amount": "7635,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1652,7 +3428,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "12720,00",
-        "Rate": 25.44,
+        "Rate": "25.4400",
         "RateFormatted": "25,44 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1668,7 +3444,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1000,00",
         "Amount": "25450,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1684,7 +3460,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "15,00",
         "Amount": "373,80",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1700,7 +3476,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "498,91",
         "Amount": "12971,77",
-        "Rate": 26,
+        "Rate": "26.0002",
         "RateFormatted": "26,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1716,7 +3492,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10180,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1732,7 +3508,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "10028,00",
-        "Rate": 25.07,
+        "Rate": "25.0700",
         "RateFormatted": "25,07 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1748,7 +3524,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "3,00",
         "Amount": "70,00",
-        "Rate": 23.33,
+        "Rate": "23.3333",
         "RateFormatted": "23,33 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1764,7 +3540,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10140,00",
-        "Rate": 25.35,
+        "Rate": "25.3500",
         "RateFormatted": "25,35 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1780,7 +3556,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "605,10",
         "Amount": "15200,00",
-        "Rate": 25.12,
+        "Rate": "25.1198",
         "RateFormatted": "25,12 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1796,7 +3572,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1,25",
         "Amount": "30,40",
-        "Rate": 24.32,
+        "Rate": "24.3200",
         "RateFormatted": "24,32 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1812,7 +3588,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10180,00",
-        "Rate": 25.45,
+        "Rate": "25.4500",
         "RateFormatted": "25,45 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1828,7 +3604,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "605,10",
         "Amount": "15200,00",
-        "Rate": 25.12,
+        "Rate": "25.1198",
         "RateFormatted": "25,12 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1844,7 +3620,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "367,00",
         "Amount": "9138,30",
-        "Rate": 24.9,
+        "Rate": "24.9000",
         "RateFormatted": "24,90 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1860,7 +3636,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "40,10",
         "Amount": "1000,00",
-        "Rate": 24.94,
+        "Rate": "24.9377",
         "RateFormatted": "24,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1876,7 +3652,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "124,60",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1892,7 +3668,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "255,80",
-        "Rate": 25.58,
+        "Rate": "25.5800",
         "RateFormatted": "25,58 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1908,7 +3684,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "9,10",
         "Amount": "227,50",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1924,7 +3700,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "6,00",
         "Amount": "147,00",
-        "Rate": 24.5,
+        "Rate": "24.5000",
         "RateFormatted": "24,50 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1940,7 +3716,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12535,00",
-        "Rate": 25.07,
+        "Rate": "25.0700",
         "RateFormatted": "25,07 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1956,7 +3732,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "7440,00",
-        "Rate": 24.8,
+        "Rate": "24.8000",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1972,7 +3748,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "15,00",
         "Amount": "366,00",
-        "Rate": 24.4,
+        "Rate": "24.4000",
         "RateFormatted": "24,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -1988,7 +3764,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "72,30",
         "Amount": "1800,00",
-        "Rate": 24.9,
+        "Rate": "24.8963",
         "RateFormatted": "24,90 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2004,7 +3780,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1,00",
         "Amount": "27,00",
-        "Rate": 27,
+        "Rate": "27.0000",
         "RateFormatted": "27,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2020,7 +3796,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "40,10",
         "Amount": "1000,00",
-        "Rate": 24.94,
+        "Rate": "24.9377",
         "RateFormatted": "24,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2036,7 +3812,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "15,00",
         "Amount": "366,00",
-        "Rate": 24.4,
+        "Rate": "24.4000",
         "RateFormatted": "24,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2052,7 +3828,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1230,00",
-        "Rate": 24.6,
+        "Rate": "24.6000",
         "RateFormatted": "24,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2068,7 +3844,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "18,00",
         "Amount": "440,00",
-        "Rate": 24.44,
+        "Rate": "24.4444",
         "RateFormatted": "24,44 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2084,7 +3860,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "255,20",
-        "Rate": 25.52,
+        "Rate": "25.5200",
         "RateFormatted": "25,52 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2100,7 +3876,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "25,00",
         "Amount": "639,50",
-        "Rate": 25.58,
+        "Rate": "25.5800",
         "RateFormatted": "25,58 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2116,7 +3892,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "256,00",
-        "Rate": 25.6,
+        "Rate": "25.6000",
         "RateFormatted": "25,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2132,7 +3908,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "7,00",
         "Amount": "169,75",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2148,7 +3924,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "29,00",
         "Amount": "716,30",
-        "Rate": 24.7,
+        "Rate": "24.7000",
         "RateFormatted": "24,70 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2164,7 +3940,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2548,00",
-        "Rate": 25.48,
+        "Rate": "25.4800",
         "RateFormatted": "25,48 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2180,7 +3956,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2550,00",
-        "Rate": 25.5,
+        "Rate": "25.5000",
         "RateFormatted": "25,50 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2196,7 +3972,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "3,75",
         "Amount": "90,00",
-        "Rate": 24,
+        "Rate": "24.0000",
         "RateFormatted": "24,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2212,7 +3988,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "28,00",
         "Amount": "705,00",
-        "Rate": 25.18,
+        "Rate": "25.1786",
         "RateFormatted": "25,18 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2228,7 +4004,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "90,00",
         "Amount": "2304,00",
-        "Rate": 25.6,
+        "Rate": "25.6000",
         "RateFormatted": "25,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2244,7 +4020,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "90,00",
         "Amount": "2251,80",
-        "Rate": 25.02,
+        "Rate": "25.0200",
         "RateFormatted": "25,02 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2260,7 +4036,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "121,25",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2276,7 +4052,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "60,00",
         "Amount": "1464,00",
-        "Rate": 24.4,
+        "Rate": "24.4000",
         "RateFormatted": "24,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2292,7 +4068,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "4,15",
         "Amount": "100,00",
-        "Rate": 24.1,
+        "Rate": "24.0964",
         "RateFormatted": "24,10 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2308,7 +4084,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12600,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2324,7 +4100,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "42,00",
         "Amount": "1042,40",
-        "Rate": 24.82,
+        "Rate": "24.8190",
         "RateFormatted": "24,82 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2340,7 +4116,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "247,00",
-        "Rate": 24.7,
+        "Rate": "24.7000",
         "RateFormatted": "24,70 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2356,7 +4132,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2502,00",
-        "Rate": 25.02,
+        "Rate": "25.0200",
         "RateFormatted": "25,02 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2372,7 +4148,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "10080,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2388,7 +4164,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2539,00",
-        "Rate": 25.39,
+        "Rate": "25.3900",
         "RateFormatted": "25,39 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2404,7 +4180,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2539,00",
-        "Rate": 25.39,
+        "Rate": "25.3900",
         "RateFormatted": "25,39 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2420,7 +4196,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "150,00",
         "Amount": "3800,00",
-        "Rate": 25.33,
+        "Rate": "25.3333",
         "RateFormatted": "25,33 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2436,7 +4212,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "24,30",
         "Amount": "600,00",
-        "Rate": 24.69,
+        "Rate": "24.6914",
         "RateFormatted": "24,69 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2452,7 +4228,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "10160,00",
-        "Rate": 25.4,
+        "Rate": "25.4000",
         "RateFormatted": "25,40 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2468,7 +4244,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "247,00",
-        "Rate": 24.7,
+        "Rate": "24.7000",
         "RateFormatted": "24,70 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2484,7 +4260,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "80,20",
         "Amount": "2000,00",
-        "Rate": 24.94,
+        "Rate": "24.9377",
         "RateFormatted": "24,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2500,7 +4276,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "17,00",
         "Amount": "419,00",
-        "Rate": 24.65,
+        "Rate": "24.6471",
         "RateFormatted": "24,65 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2516,7 +4292,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "85,00",
         "Amount": "2116,50",
-        "Rate": 24.9,
+        "Rate": "24.9000",
         "RateFormatted": "24,90 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2532,7 +4308,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "120,00",
         "Amount": "3000,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2548,7 +4324,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "15,00",
         "Amount": "384,00",
-        "Rate": 25.6,
+        "Rate": "25.6000",
         "RateFormatted": "25,60 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2564,7 +4340,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "125,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2580,7 +4356,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "32,73",
         "Amount": "828,39",
-        "Rate": 25.31,
+        "Rate": "25.3098",
         "RateFormatted": "25,31 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2596,7 +4372,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12565,00",
-        "Rate": 25.13,
+        "Rate": "25.1300",
         "RateFormatted": "25,13 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2612,7 +4388,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "69,00",
         "Amount": "1742,00",
-        "Rate": 25.25,
+        "Rate": "25.2464",
         "RateFormatted": "25,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2628,7 +4404,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "1250,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2644,7 +4420,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2512,00",
-        "Rate": 25.12,
+        "Rate": "25.1200",
         "RateFormatted": "25,12 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2660,7 +4436,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "150,00",
         "Amount": "3780,00",
-        "Rate": 25.2,
+        "Rate": "25.2000",
         "RateFormatted": "25,20 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2676,7 +4452,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1000,00",
         "Amount": "25300,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2692,7 +4468,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "70,00",
         "Amount": "1743,00",
-        "Rate": 24.9,
+        "Rate": "24.9000",
         "RateFormatted": "24,90 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2708,7 +4484,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "40,10",
         "Amount": "1000,00",
-        "Rate": 24.94,
+        "Rate": "24.9377",
         "RateFormatted": "24,94 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2724,7 +4500,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "32,00",
         "Amount": "808,00",
-        "Rate": 25.25,
+        "Rate": "25.2500",
         "RateFormatted": "25,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2740,7 +4516,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12580,00",
-        "Rate": 25.16,
+        "Rate": "25.1600",
         "RateFormatted": "25,16 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2756,7 +4532,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "2530,00",
-        "Rate": 25.3,
+        "Rate": "25.3000",
         "RateFormatted": "25,30 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2772,7 +4548,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "9,00",
         "Amount": "218,25",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2788,7 +4564,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2502,00",
-        "Rate": 25.02,
+        "Rate": "25.0200",
         "RateFormatted": "25,02 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2804,7 +4580,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "12590,00",
-        "Rate": 25.18,
+        "Rate": "25.1800",
         "RateFormatted": "25,18 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2820,7 +4596,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "247,00",
-        "Rate": 24.7,
+        "Rate": "24.7000",
         "RateFormatted": "24,70 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2836,7 +4612,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "5030,00",
-        "Rate": 25.15,
+        "Rate": "25.1500",
         "RateFormatted": "25,15 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2852,7 +4628,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "9,00",
         "Amount": "218,25",
-        "Rate": 24.25,
+        "Rate": "24.2500",
         "RateFormatted": "24,25 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2868,7 +4644,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "403,22",
         "Amount": "10000,00",
-        "Rate": 24.8,
+        "Rate": "24.8004",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2884,7 +4660,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "40,00",
         "Amount": "1002,80",
-        "Rate": 25.07,
+        "Rate": "25.0700",
         "RateFormatted": "25,07 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2900,7 +4676,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "2515,00",
-        "Rate": 25.15,
+        "Rate": "25.1500",
         "RateFormatted": "25,15 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2916,7 +4692,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "150,00",
         "Amount": "3768,00",
-        "Rate": 25.12,
+        "Rate": "25.1200",
         "RateFormatted": "25,12 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2932,7 +4708,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "84,35",
         "Amount": "2100,00",
-        "Rate": 24.9,
+        "Rate": "24.8963",
         "RateFormatted": "24,90 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2948,7 +4724,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "47,00",
         "Amount": "1175,00",
-        "Rate": 25,
+        "Rate": "25.0000",
         "RateFormatted": "25,00 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2964,7 +4740,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "246,60",
-        "Rate": 24.66,
+        "Rate": "24.6600",
         "RateFormatted": "24,66 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2980,7 +4756,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "700,00",
         "Amount": "17605,00",
-        "Rate": 25.15,
+        "Rate": "25.1500",
         "RateFormatted": "25,15 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -2996,7 +4772,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "498,40",
-        "Rate": 24.92,
+        "Rate": "24.9200",
         "RateFormatted": "24,92 UAH",
         "IsUnitPrice": true,
         "Period": {
@@ -3012,7 +4788,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "75,00",
         "Amount": "1860,00",
-        "Rate": 24.8,
+        "Rate": "24.8000",
         "RateFormatted": "24,80 UAH",
         "IsUnitPrice": true,
         "Period": {

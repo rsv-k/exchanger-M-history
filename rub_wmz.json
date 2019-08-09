@@ -1,10 +1,1802 @@
 [
     {
+        "FinishedAt": "09.08.2019 12:09",
+        "BidsHistoryType": "buy",
+        "AmountWm": "214,82",
+        "Amount": "14000,00",
+        "Rate": "65.1708",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 12,
+            "Value": 3
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "414,30",
+        "Amount": "27000,00",
+        "Rate": "65.1702",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:09",
+        "BidsHistoryType": "buy",
+        "AmountWm": "214,82",
+        "Amount": "14000,00",
+        "Rate": "65.1708",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 12,
+            "Value": 3
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "414,30",
+        "Amount": "27000,00",
+        "Rate": "65.1702",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:09",
+        "BidsHistoryType": "buy",
+        "AmountWm": "214,82",
+        "Amount": "14000,00",
+        "Rate": "65.1708",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 12,
+            "Value": 3
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "414,30",
+        "Amount": "27000,00",
+        "Rate": "65.1702",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:09",
+        "BidsHistoryType": "buy",
+        "AmountWm": "214,82",
+        "Amount": "14000,00",
+        "Rate": "65.1708",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 12,
+            "Value": 3
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "414,30",
+        "Amount": "27000,00",
+        "Rate": "65.1702",
+        "RateFormatted": "65,17 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:59",
+        "BidsHistoryType": "sale",
+        "AmountWm": "150,00",
+        "Amount": "9825,00",
+        "Rate": "65.5000",
+        "RateFormatted": "65,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "1340,00",
+        "Rate": "67.0000",
+        "RateFormatted": "67,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "1340,00",
+        "Rate": "67.0000",
+        "RateFormatted": "67,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1936,36",
+        "Amount": "127800,00",
+        "Rate": "66.0001",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "1340,00",
+        "Rate": "67.0000",
+        "RateFormatted": "67,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "1340,00",
+        "Rate": "67.0000",
+        "RateFormatted": "67,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:29",
+        "BidsHistoryType": "buy",
+        "AmountWm": "200,00",
+        "Amount": "12900,00",
+        "Rate": "64.5000",
+        "RateFormatted": "64,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ФК Открытие",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 11:01",
+        "BidsHistoryType": "sale",
+        "AmountWm": "800,00",
+        "Amount": "52200,00",
+        "Rate": "65.2500",
+        "RateFormatted": "65,25 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "26400,00",
+        "Rate": "66.0000",
+        "RateFormatted": "66,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 8,
+            "Value": 2
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:40",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "6480,00",
+        "Rate": "64.8000",
+        "RateFormatted": "64,80 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:33",
+        "BidsHistoryType": "buy",
+        "AmountWm": "212,52",
+        "Amount": "13888,00",
+        "Rate": "65.3491",
+        "RateFormatted": "65,35 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 10:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "65150,00",
+        "Rate": "65.1500",
+        "RateFormatted": "65,15 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 09:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "303,49",
+        "Amount": "20000,00",
+        "Rate": "65.9000",
+        "RateFormatted": "65,90 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:40",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "1340,00",
+        "Rate": "67.0000",
+        "RateFormatted": "67,00 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 08:29",
+        "BidsHistoryType": "buy",
+        "AmountWm": "200,00",
+        "Amount": "12900,00",
+        "Rate": "64.5000",
+        "RateFormatted": "64,50 RUB",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ФК Открытие",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
         "FinishedAt": "08.08.2019 14:09",
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6585,00",
-        "Rate": 65.85,
+        "Rate": "65.8500",
         "RateFormatted": "65,85 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -20,7 +1812,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "19350,00",
-        "Rate": 64.5,
+        "Rate": "64.5000",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -36,7 +1828,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "510,00",
         "Amount": "33201,00",
-        "Rate": 65.1,
+        "Rate": "65.1000",
         "RateFormatted": "65,10 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -52,7 +1844,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "600,00",
         "Amount": "40140,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -68,7 +1860,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "16,60",
         "Amount": "1000,00",
-        "Rate": 60.24,
+        "Rate": "60.2410",
         "RateFormatted": "60,24 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -84,7 +1876,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "20,00",
         "Amount": "1340,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -100,7 +1892,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32060,00",
-        "Rate": 64.12,
+        "Rate": "64.1200",
         "RateFormatted": "64,12 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -116,7 +1908,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "10,00",
         "Amount": "658,00",
-        "Rate": 65.8,
+        "Rate": "65.8000",
         "RateFormatted": "65,80 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -132,7 +1924,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "830,00",
         "Amount": "53150,00",
-        "Rate": 64.04,
+        "Rate": "64.0361",
         "RateFormatted": "64,04 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -148,7 +1940,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6520,00",
-        "Rate": 65.2,
+        "Rate": "65.2000",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -164,7 +1956,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "13040,00",
-        "Rate": 65.2,
+        "Rate": "65.2000",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -180,7 +1972,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "64123,00",
-        "Rate": 64.12,
+        "Rate": "64.1230",
         "RateFormatted": "64,12 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -196,7 +1988,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "65200,00",
-        "Rate": 65.2,
+        "Rate": "65.2000",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -212,7 +2004,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "65500,00",
-        "Rate": 65.5,
+        "Rate": "65.5000",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -228,7 +2020,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "13170,00",
-        "Rate": 65.85,
+        "Rate": "65.8500",
         "RateFormatted": "65,85 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -244,7 +2036,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6630,00",
-        "Rate": 66.3,
+        "Rate": "66.3000",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -260,7 +2052,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6585,00",
-        "Rate": 65.85,
+        "Rate": "65.8500",
         "RateFormatted": "65,85 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -276,7 +2068,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "652,17",
         "Amount": "42600,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -292,7 +2084,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6560,00",
-        "Rate": 65.6,
+        "Rate": "65.6000",
         "RateFormatted": "65,60 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -308,7 +2100,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "80,00",
         "Amount": "5272,00",
-        "Rate": 65.9,
+        "Rate": "65.9000",
         "RateFormatted": "65,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -324,7 +2116,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "800,00",
         "Amount": "52120,00",
-        "Rate": 65.15,
+        "Rate": "65.1500",
         "RateFormatted": "65,15 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -340,7 +2132,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6630,00",
-        "Rate": 66.3,
+        "Rate": "66.3000",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -356,7 +2148,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "434,78",
         "Amount": "28400,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -372,7 +2164,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "19755,00",
-        "Rate": 65.85,
+        "Rate": "65.8500",
         "RateFormatted": "65,85 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -388,7 +2180,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "3255,00",
-        "Rate": 65.1,
+        "Rate": "65.1000",
         "RateFormatted": "65,10 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -404,7 +2196,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6630,00",
-        "Rate": 66.3,
+        "Rate": "66.3000",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -420,7 +2212,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "48,00",
         "Amount": "3124,00",
-        "Rate": 65.08,
+        "Rate": "65.0833",
         "RateFormatted": "65,08 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -436,7 +2228,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6560,00",
-        "Rate": 65.6,
+        "Rate": "65.6000",
         "RateFormatted": "65,60 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -452,7 +2244,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6590,00",
-        "Rate": 65.9,
+        "Rate": "65.9000",
         "RateFormatted": "65,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -468,7 +2260,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "200,00",
         "Amount": "13180,00",
-        "Rate": 65.9,
+        "Rate": "65.9000",
         "RateFormatted": "65,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -484,7 +2276,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "300,00",
         "Amount": "19770,00",
-        "Rate": 65.9,
+        "Rate": "65.9000",
         "RateFormatted": "65,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -500,7 +2292,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6450,00",
-        "Rate": 64.5,
+        "Rate": "64.5000",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -516,7 +2308,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6515,00",
-        "Rate": 65.15,
+        "Rate": "65.1500",
         "RateFormatted": "65,15 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -532,7 +2324,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "65000,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -548,7 +2340,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1500,00",
         "Amount": "96600,00",
-        "Rate": 64.4,
+        "Rate": "64.4000",
         "RateFormatted": "64,40 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -564,7 +2356,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "400,00",
         "Amount": "27000,00",
-        "Rate": 67.5,
+        "Rate": "67.5000",
         "RateFormatted": "67,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -580,7 +2372,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1500,00",
         "Amount": "100000,00",
-        "Rate": 66.67,
+        "Rate": "66.6667",
         "RateFormatted": "66,67 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -596,7 +2388,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6590,00",
-        "Rate": 65.9,
+        "Rate": "65.9000",
         "RateFormatted": "65,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -612,7 +2404,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "13008,00",
-        "Rate": 65.04,
+        "Rate": "65.0400",
         "RateFormatted": "65,04 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -628,7 +2420,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "13004,00",
-        "Rate": 65.02,
+        "Rate": "65.0200",
         "RateFormatted": "65,02 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -644,7 +2436,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "3300,00",
-        "Rate": 66,
+        "Rate": "66.0000",
         "RateFormatted": "66,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -660,7 +2452,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "45,00",
         "Amount": "2979,00",
-        "Rate": 66.2,
+        "Rate": "66.2000",
         "RateFormatted": "66,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -676,7 +2468,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "19650,00",
-        "Rate": 65.5,
+        "Rate": "65.5000",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -692,7 +2484,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6550,00",
-        "Rate": 65.5,
+        "Rate": "65.5000",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -708,7 +2500,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "300,01",
         "Amount": "19890,00",
-        "Rate": 66.3,
+        "Rate": "66.2978",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -724,7 +2516,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1936,36",
         "Amount": "127800,00",
-        "Rate": 66,
+        "Rate": "66.0001",
         "RateFormatted": "66,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -740,7 +2532,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "580,60",
         "Amount": "38000,00",
-        "Rate": 65.45,
+        "Rate": "65.4495",
         "RateFormatted": "65,45 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -756,7 +2548,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1721,00",
         "Amount": "113600,00",
-        "Rate": 66.01,
+        "Rate": "66.0081",
         "RateFormatted": "66,01 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -772,7 +2564,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "431,94",
         "Amount": "28400,00",
-        "Rate": 65.75,
+        "Rate": "65.7499",
         "RateFormatted": "65,75 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -788,7 +2580,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "19209,00",
-        "Rate": 64.03,
+        "Rate": "64.0300",
         "RateFormatted": "64,03 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -804,7 +2596,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6450,00",
-        "Rate": 64.5,
+        "Rate": "64.5000",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -820,7 +2612,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "325,00",
         "Amount": "20572,00",
-        "Rate": 63.3,
+        "Rate": "63.2985",
         "RateFormatted": "63,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -836,7 +2628,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "25,00",
         "Amount": "1635,00",
-        "Rate": 65.4,
+        "Rate": "65.4000",
         "RateFormatted": "65,40 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -852,7 +2644,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1721,00",
         "Amount": "110999,00",
-        "Rate": 64.5,
+        "Rate": "64.4968",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -868,7 +2660,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1,00",
         "Amount": "67,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -884,7 +2676,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "153,37",
         "Amount": "10000,00",
-        "Rate": 65.2,
+        "Rate": "65.2018",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -900,7 +2692,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "212,35",
         "Amount": "13888,00",
-        "Rate": 65.4,
+        "Rate": "65.4015",
         "RateFormatted": "65,40 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -916,7 +2708,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1,00",
         "Amount": "70,00",
-        "Rate": 70,
+        "Rate": "70.0000",
         "RateFormatted": "70,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -932,7 +2724,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "670,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -948,7 +2740,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "770,00",
         "Amount": "50000,00",
-        "Rate": 64.94,
+        "Rate": "64.9351",
         "RateFormatted": "64,94 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -964,7 +2756,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "358,00",
         "Amount": "23300,00",
-        "Rate": 65.08,
+        "Rate": "65.0838",
         "RateFormatted": "65,08 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -980,7 +2772,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "434,78",
         "Amount": "28400,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -996,7 +2788,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32520,00",
-        "Rate": 65.04,
+        "Rate": "65.0400",
         "RateFormatted": "65,04 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1012,7 +2804,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6690,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1028,7 +2820,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "670,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1044,7 +2836,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "950,00",
         "Amount": "61750,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1060,7 +2852,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "65,00",
         "Amount": "4100,00",
-        "Rate": 63.08,
+        "Rate": "63.0769",
         "RateFormatted": "63,08 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1076,7 +2868,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32550,00",
-        "Rate": 65.1,
+        "Rate": "65.1000",
         "RateFormatted": "65,10 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1092,7 +2884,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "35,00",
         "Amount": "2249,00",
-        "Rate": 64.26,
+        "Rate": "64.2571",
         "RateFormatted": "64,26 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1108,7 +2900,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "88,00",
         "Amount": "5688,00",
-        "Rate": 64.64,
+        "Rate": "64.6364",
         "RateFormatted": "64,64 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1124,7 +2916,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "92,44",
         "Amount": "6032,00",
-        "Rate": 65.25,
+        "Rate": "65.2531",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1140,7 +2932,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1500,00",
         "Amount": "99000,00",
-        "Rate": 66,
+        "Rate": "66.0000",
         "RateFormatted": "66,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1156,7 +2948,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1075,00",
         "Amount": "71078,40",
-        "Rate": 66.12,
+        "Rate": "66.1194",
         "RateFormatted": "66,12 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1172,7 +2964,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "25800,00",
-        "Rate": 64.5,
+        "Rate": "64.5000",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1188,7 +2980,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "152,98",
         "Amount": "10000,00",
-        "Rate": 65.37,
+        "Rate": "65.3680",
         "RateFormatted": "65,37 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1204,7 +2996,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "230,34",
         "Amount": "15000,00",
-        "Rate": 65.12,
+        "Rate": "65.1211",
         "RateFormatted": "65,12 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1220,7 +3012,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "652,17",
         "Amount": "42600,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1236,7 +3028,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "152,98",
         "Amount": "10000,00",
-        "Rate": 65.37,
+        "Rate": "65.3680",
         "RateFormatted": "65,37 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1252,7 +3044,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "217,39",
         "Amount": "14200,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1268,7 +3060,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "63,19",
         "Amount": "4000,00",
-        "Rate": 63.3,
+        "Rate": "63.3012",
         "RateFormatted": "63,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1284,7 +3076,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "91,74",
         "Amount": "6000,00",
-        "Rate": 65.4,
+        "Rate": "65.4022",
         "RateFormatted": "65,40 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1300,7 +3092,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "26044,00",
-        "Rate": 65.11,
+        "Rate": "65.1100",
         "RateFormatted": "65,11 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1316,7 +3108,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "434,78",
         "Amount": "28400,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1332,7 +3124,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "652,17",
         "Amount": "42600,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1348,7 +3140,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "459,00",
         "Amount": "30000,00",
-        "Rate": 65.36,
+        "Rate": "65.3595",
         "RateFormatted": "65,36 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1364,7 +3156,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "20,00",
         "Amount": "1270,00",
-        "Rate": 63.5,
+        "Rate": "63.5000",
         "RateFormatted": "63,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1380,7 +3172,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "168,58",
         "Amount": "11000,00",
-        "Rate": 65.25,
+        "Rate": "65.2509",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1396,7 +3188,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "199,23",
         "Amount": "13000,00",
-        "Rate": 65.25,
+        "Rate": "65.2512",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1412,7 +3204,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "64340,00",
-        "Rate": 64.34,
+        "Rate": "64.3400",
         "RateFormatted": "64,34 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1428,7 +3220,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "26148,00",
-        "Rate": 65.37,
+        "Rate": "65.3700",
         "RateFormatted": "65,37 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1444,7 +3236,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "250,00",
         "Amount": "16425,00",
-        "Rate": 65.7,
+        "Rate": "65.7000",
         "RateFormatted": "65,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1460,7 +3252,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "137,93",
         "Amount": "9000,00",
-        "Rate": 65.25,
+        "Rate": "65.2505",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1476,7 +3268,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "150,00",
         "Amount": "9651,00",
-        "Rate": 64.34,
+        "Rate": "64.3400",
         "RateFormatted": "64,34 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1492,7 +3284,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "152,98",
         "Amount": "10000,00",
-        "Rate": 65.37,
+        "Rate": "65.3680",
         "RateFormatted": "65,37 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1508,7 +3300,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32675,00",
-        "Rate": 65.35,
+        "Rate": "65.3500",
         "RateFormatted": "65,35 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1524,7 +3316,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "75,00",
         "Amount": "4886,00",
-        "Rate": 65.15,
+        "Rate": "65.1467",
         "RateFormatted": "65,15 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1540,7 +3332,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32550,00",
-        "Rate": 65.1,
+        "Rate": "65.1000",
         "RateFormatted": "65,10 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1556,7 +3348,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "3345,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1572,7 +3364,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "217,39",
         "Amount": "14200,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1588,7 +3380,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "400,00",
         "Amount": "25800,00",
-        "Rate": 64.5,
+        "Rate": "64.5000",
         "RateFormatted": "64,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1604,7 +3396,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "434,78",
         "Amount": "28400,00",
-        "Rate": 65.32,
+        "Rate": "65.3204",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1620,7 +3412,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "212,03",
         "Amount": "13888,00",
-        "Rate": 65.5,
+        "Rate": "65.5002",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1636,7 +3428,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "250,00",
         "Amount": "16400,00",
-        "Rate": 65.6,
+        "Rate": "65.6000",
         "RateFormatted": "65,60 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1652,7 +3444,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "457,94",
         "Amount": "30000,00",
-        "Rate": 65.51,
+        "Rate": "65.5108",
         "RateFormatted": "65,51 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1668,7 +3460,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "900,00",
         "Amount": "59994,00",
-        "Rate": 66.66,
+        "Rate": "66.6600",
         "RateFormatted": "66,66 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1684,7 +3476,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "1500,00",
         "Amount": "98700,00",
-        "Rate": 65.8,
+        "Rate": "65.8000",
         "RateFormatted": "65,80 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1700,7 +3492,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "2000,00",
         "Amount": "131600,00",
-        "Rate": 65.8,
+        "Rate": "65.8000",
         "RateFormatted": "65,80 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1716,7 +3508,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "250,00",
         "Amount": "16400,00",
-        "Rate": 65.6,
+        "Rate": "65.6000",
         "RateFormatted": "65,60 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1732,7 +3524,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6695,00",
-        "Rate": 66.95,
+        "Rate": "66.9500",
         "RateFormatted": "66,95 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1748,7 +3540,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1522,21",
         "Amount": "99400,00",
-        "Rate": 65.3,
+        "Rate": "65.2998",
         "RateFormatted": "65,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1764,7 +3556,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "76,63",
         "Amount": "5000,00",
-        "Rate": 65.25,
+        "Rate": "65.2486",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1780,7 +3572,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6510,00",
-        "Rate": 65.1,
+        "Rate": "65.1000",
         "RateFormatted": "65,10 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1796,7 +3588,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "840,00",
         "Amount": "55400,00",
-        "Rate": 65.95,
+        "Rate": "65.9524",
         "RateFormatted": "65,95 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1812,7 +3604,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "690,18",
         "Amount": "45000,00",
-        "Rate": 65.2,
+        "Rate": "65.2004",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1828,7 +3620,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "397,00",
         "Amount": "26000,00",
-        "Rate": 65.49,
+        "Rate": "65.4912",
         "RateFormatted": "65,49 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1844,7 +3636,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6533,00",
-        "Rate": 65.33,
+        "Rate": "65.3300",
         "RateFormatted": "65,33 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1860,7 +3652,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "250,00",
         "Amount": "16530,00",
-        "Rate": 66.12,
+        "Rate": "66.1200",
         "RateFormatted": "66,12 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1876,7 +3668,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "842,91",
         "Amount": "55000,00",
-        "Rate": 65.25,
+        "Rate": "65.2501",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1892,7 +3684,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "180,00",
         "Amount": "11934,00",
-        "Rate": 66.3,
+        "Rate": "66.3000",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1908,7 +3700,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "250,00",
         "Amount": "16575,00",
-        "Rate": 66.3,
+        "Rate": "66.3000",
         "RateFormatted": "66,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1924,7 +3716,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "366,40",
         "Amount": "24000,00",
-        "Rate": 65.5,
+        "Rate": "65.5022",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1940,7 +3732,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1287,36",
         "Amount": "84000,00",
-        "Rate": 65.25,
+        "Rate": "65.2498",
         "RateFormatted": "65,25 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1956,7 +3748,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "150,00",
         "Amount": "10035,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1972,7 +3764,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "26,00",
         "Amount": "1724,00",
-        "Rate": 66.31,
+        "Rate": "66.3077",
         "RateFormatted": "66,31 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -1988,7 +3780,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "8,92",
         "Amount": "586,04",
-        "Rate": 65.7,
+        "Rate": "65.6996",
         "RateFormatted": "65,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2004,7 +3796,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "16,00",
         "Amount": "1027,00",
-        "Rate": 64.19,
+        "Rate": "64.1875",
         "RateFormatted": "64,19 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2020,7 +3812,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "65,00",
         "Amount": "4271,00",
-        "Rate": 65.71,
+        "Rate": "65.7077",
         "RateFormatted": "65,71 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2036,7 +3828,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "500,00",
         "Amount": "33225,00",
-        "Rate": 66.45,
+        "Rate": "66.4500",
         "RateFormatted": "66,45 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2052,7 +3844,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "10,00",
         "Amount": "660,00",
-        "Rate": 66,
+        "Rate": "66.0000",
         "RateFormatted": "66,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2068,7 +3860,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "6,00",
         "Amount": "401,00",
-        "Rate": 66.83,
+        "Rate": "66.8333",
         "RateFormatted": "66,83 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2084,7 +3876,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "65360,00",
-        "Rate": 65.36,
+        "Rate": "65.3600",
         "RateFormatted": "65,36 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2100,7 +3892,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "25,00",
         "Amount": "1575,00",
-        "Rate": 63,
+        "Rate": "63.0000",
         "RateFormatted": "63,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2116,7 +3908,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1533,00",
         "Amount": "100000,00",
-        "Rate": 65.23,
+        "Rate": "65.2316",
         "RateFormatted": "65,23 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2132,7 +3924,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "229,00",
         "Amount": "15000,00",
-        "Rate": 65.5,
+        "Rate": "65.5022",
         "RateFormatted": "65,50 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2148,7 +3940,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "200,00",
         "Amount": "12940,00",
-        "Rate": 64.7,
+        "Rate": "64.7000",
         "RateFormatted": "64,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2164,7 +3956,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "228,31",
         "Amount": "15000,00",
-        "Rate": 65.7,
+        "Rate": "65.7001",
         "RateFormatted": "65,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2180,7 +3972,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32600,00",
-        "Rate": 65.2,
+        "Rate": "65.2000",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2196,7 +3988,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "152,20",
         "Amount": "10000,00",
-        "Rate": 65.7,
+        "Rate": "65.7030",
         "RateFormatted": "65,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2212,7 +4004,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1960,00",
         "Amount": "127800,00",
-        "Rate": 65.2,
+        "Rate": "65.2041",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2228,7 +4020,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "20,00",
         "Amount": "1340,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2244,7 +4036,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32650,00",
-        "Rate": 65.3,
+        "Rate": "65.3000",
         "RateFormatted": "65,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2260,7 +4052,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "45,67",
         "Amount": "3000,00",
-        "Rate": 65.69,
+        "Rate": "65.6886",
         "RateFormatted": "65,69 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2276,7 +4068,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "100,00",
         "Amount": "6700,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2292,7 +4084,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1088,96",
         "Amount": "71000,00",
-        "Rate": 65.2,
+        "Rate": "65.1998",
         "RateFormatted": "65,20 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2308,7 +4100,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "153,14",
         "Amount": "10000,00",
-        "Rate": 65.3,
+        "Rate": "65.2997",
         "RateFormatted": "65,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2324,7 +4116,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6470,00",
-        "Rate": 64.7,
+        "Rate": "64.7000",
         "RateFormatted": "64,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2340,7 +4132,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "389,00",
         "Amount": "25304,00",
-        "Rate": 65.05,
+        "Rate": "65.0488",
         "RateFormatted": "65,05 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2356,7 +4148,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "900,00",
         "Amount": "58500,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2372,7 +4164,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32650,00",
-        "Rate": 65.3,
+        "Rate": "65.3000",
         "RateFormatted": "65,30 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2388,7 +4180,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "5,00",
         "Amount": "310,00",
-        "Rate": 62,
+        "Rate": "62.0000",
         "RateFormatted": "62,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2404,7 +4196,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "50,00",
         "Amount": "3250,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2420,7 +4212,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "200,00",
         "Amount": "13380,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2436,7 +4228,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "15,22",
         "Amount": "1000,00",
-        "Rate": 65.7,
+        "Rate": "65.7030",
         "RateFormatted": "65,70 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2452,7 +4244,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6546,00",
-        "Rate": 65.46,
+        "Rate": "65.4600",
         "RateFormatted": "65,46 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2468,7 +4260,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "534,76",
         "Amount": "35000,00",
-        "Rate": 65.45,
+        "Rate": "65.4499",
         "RateFormatted": "65,45 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2484,7 +4276,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "50,00",
         "Amount": "3350,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2500,7 +4292,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "300,00",
         "Amount": "19500,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2516,7 +4308,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "703,44",
         "Amount": "46427,00",
-        "Rate": 66,
+        "Rate": "65.9999",
         "RateFormatted": "66,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2532,7 +4324,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "200,00",
         "Amount": "13380,00",
-        "Rate": 66.9,
+        "Rate": "66.9000",
         "RateFormatted": "66,90 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2548,7 +4340,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "500,00",
         "Amount": "32710,00",
-        "Rate": 65.42,
+        "Rate": "65.4200",
         "RateFormatted": "65,42 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2564,7 +4356,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "1000,00",
         "Amount": "65000,00",
-        "Rate": 65,
+        "Rate": "65.0000",
         "RateFormatted": "65,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2580,7 +4372,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "100,00",
         "Amount": "6560,00",
-        "Rate": 65.6,
+        "Rate": "65.6000",
         "RateFormatted": "65,60 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2596,7 +4388,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "222,00",
         "Amount": "14500,00",
-        "Rate": 65.32,
+        "Rate": "65.3153",
         "RateFormatted": "65,32 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2612,7 +4404,7 @@
         "BidsHistoryType": "buy",
         "AmountWm": "919,00",
         "Amount": "60060,00",
-        "Rate": 65.35,
+        "Rate": "65.3536",
         "RateFormatted": "65,35 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2628,7 +4420,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "20,00",
         "Amount": "1340,00",
-        "Rate": 67,
+        "Rate": "67.0000",
         "RateFormatted": "67,00 RUB",
         "IsUnitPrice": true,
         "Period": {
@@ -2644,7 +4436,7 @@
         "BidsHistoryType": "sale",
         "AmountWm": "2000,00",
         "Amount": "132300,00",
-        "Rate": 66.15,
+        "Rate": "66.1500",
         "RateFormatted": "66,15 RUB",
         "IsUnitPrice": true,
         "Period": {

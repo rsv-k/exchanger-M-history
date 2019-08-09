@@ -25,6 +25,7 @@ function onClickActive(e) {
 function getTransactionsData(RLcurrency, WMcurrency) {
     axios.get(`/history/${RLcurrency}-${WMcurrency}/api`.toLocaleLowerCase())
     .then(response => { 
+        
         dataLength = response.data.length;
         addToTable(response.data, WMcurrency, RLcurrency)
     })
@@ -62,7 +63,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
                     <img src = '${data[i].CardIcon}' class = 'img'/>
                     <span class = 'bank__title'>${data[i].BankName}</span>
                 </td>
-                <td>${data[i].RateFormatted}</td>
+                <td>${data[i].Rate}</td>
             </tr>
         `;
     }
