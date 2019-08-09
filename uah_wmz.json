@@ -1,5 +1,1765 @@
 [
     {
+        "FinishedAt": "09.08.2019 13:18",
+        "BidsHistoryType": "buy",
+        "AmountWm": "300,00",
+        "Amount": "7485,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:18",
+        "BidsHistoryType": "buy",
+        "AmountWm": "300,00",
+        "Amount": "7485,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:18",
+        "BidsHistoryType": "buy",
+        "AmountWm": "300,00",
+        "Amount": "7485,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "100,00",
+        "Amount": "2495,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:15",
+        "BidsHistoryType": "buy",
+        "AmountWm": "500,00",
+        "Amount": "12475,00",
+        "Rate": "24.9500",
+        "RateFormatted": "24,95 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзен Банк Аваль",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "8,00",
+        "Amount": "205,50",
+        "Rate": "25.6875",
+        "RateFormatted": "25,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:38",
+        "BidsHistoryType": "buy",
+        "AmountWm": "204,00",
+        "Amount": "5000,00",
+        "Rate": "24.5098",
+        "RateFormatted": "24,51 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "80,00",
+        "Amount": "1995,00",
+        "Rate": "24.9375",
+        "RateFormatted": "24,94 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:38",
+        "BidsHistoryType": "buy",
+        "AmountWm": "204,00",
+        "Amount": "5000,00",
+        "Rate": "24.5098",
+        "RateFormatted": "24,51 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "13,00",
+        "Amount": "321,00",
+        "Rate": "24.6923",
+        "RateFormatted": "24,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:11",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15,00",
+        "Amount": "366,00",
+        "Rate": "24.4000",
+        "RateFormatted": "24,40 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:02",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20,00",
+        "Amount": "510,00",
+        "Rate": "25.5000",
+        "RateFormatted": "25,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 13:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "50,00",
+        "Amount": "1245,00",
+        "Rate": "24.9000",
+        "RateFormatted": "24,90 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "50,00",
+        "Amount": "1272,50",
+        "Rate": "25.4500",
+        "RateFormatted": "25,45 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:50",
+        "BidsHistoryType": "buy",
+        "AmountWm": "408,16",
+        "Amount": "10000,00",
+        "Rate": "24.5002",
+        "RateFormatted": "24,50 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк (Украина)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:42",
+        "BidsHistoryType": "buy",
+        "AmountWm": "410,00",
+        "Amount": "10213,10",
+        "Rate": "24.9100",
+        "RateFormatted": "24,91 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:39",
+        "BidsHistoryType": "buy",
+        "AmountWm": "81,57",
+        "Amount": "2000,00",
+        "Rate": "24.5188",
+        "RateFormatted": "24,52 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:38",
+        "BidsHistoryType": "buy",
+        "AmountWm": "204,00",
+        "Amount": "5000,00",
+        "Rate": "24.5098",
+        "RateFormatted": "24,51 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "13,00",
+        "Amount": "321,00",
+        "Rate": "24.6923",
+        "RateFormatted": "24,69 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ПриватБанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "09.08.2019 12:11",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15,00",
+        "Amount": "366,00",
+        "Rate": "24.4000",
+        "RateFormatted": "24,40 UAH",
+        "IsUnitPrice": true,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Монобанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
         "FinishedAt": "09.08.2019 12:11",
         "BidsHistoryType": "buy",
         "AmountWm": "15,00",

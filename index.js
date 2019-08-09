@@ -25,6 +25,10 @@ app.get('/history/rub-wmr/api', (req, res) => res.send(JSON.stringify(history.RU
 app.get('/history/rub-wmz/api', (req, res) => res.send(JSON.stringify(history.RUB_WMZ)) );
 app.get('/history/uah-wmr/api', (req, res) => res.send(JSON.stringify(history.UAH_WMR)) );
 app.get('/history/uah-wmz/api', (req, res) => res.send(JSON.stringify(history.UAH_WMZ)) );
+app.get('/paths/graphics', (req, res) => {
+    res.send('<h1>And again</h1>');
+    console.log(document.querySelector('h1'));
+})
 
 app.listen(port, () => console.log(`istening on port ${port}!`));
 

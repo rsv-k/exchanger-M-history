@@ -15,6 +15,7 @@ body {
     margin: 10px 0;
     width: 100%;
     text-align: center;
+    position: relative;
 }
 
 .btn {
@@ -74,6 +75,21 @@ body {
 .pagination__current {
     padding: 5px;
     font-size: 1.1em;
+}
+.header__graphics {
+    text-decoration: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #00C0EF;
+    border: 1px solid rgb(230, 18, 18);
+    padding: 10px 20px;
+    color: #fff;
+    transition: all 0.5 ease;
+}
+.header__graphics:hover {
+    border: 1px solid #00C0EF;
+    background: rgb(230, 18, 18);
 }
 
 @media (max-width: 776px) {
