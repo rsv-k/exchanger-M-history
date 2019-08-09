@@ -63,7 +63,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
                     <img src = '${data[i].CardIcon}' class = 'img'/>
                     <span class = 'bank__title'>${data[i].BankName}</span>
                 </td>
-                <td>${data[i].Rate}</td>
+                <td>${data[i].RateFormatted.includes('+') || data[i].RateFormatted.includes('-') ? data[i].RateFormatted + '%' : data[i].Rate}</td>
             </tr>
         `;
     }
