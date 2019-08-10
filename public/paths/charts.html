@@ -72,7 +72,7 @@
                 const type = item.BidsHistoryType;
 
                 if (!dates.labels.includes(date)) {
-                    dates.labels.unshift(date);
+                    dates.labels.push(date);
                     dates.buy[date] = 0;
                     dates.sale[date] = 0;
                 }
