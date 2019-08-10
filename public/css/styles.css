@@ -76,7 +76,7 @@ body {
     padding: 5px;
     font-size: 1.1em;
 }
-.header__graphics {
+.header__graphics, .header__history {
     text-decoration: none;
     position: absolute;
     left: 10px;
@@ -87,7 +87,7 @@ body {
     color: #fff;
     transition: all 0.5 ease;
 }
-.header__graphics:hover {
+.header__graphics:hover, .header__history:hover {
     border: 1px solid #00C0EF;
     background: rgb(230, 18, 18);
 }
@@ -105,4 +105,10 @@ body {
     .table td {
         height: 65px;
     }
+}
+
+.charts__container {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
 }

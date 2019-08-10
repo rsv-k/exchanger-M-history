@@ -9,10 +9,149 @@
     <title>Charts</title>
 </head>
 <body>
-    <canvas width = "200" height = "200" id = "myChart"></canvas>
-
-    <script>
-
-    </script>
+    <div class="container">
+        <div class="header">
+            <a href="../index.html" class="header__history">История</a>
+            <div class="buttons">
+                <div class="wmcurrencies">
+                    <button class = 'btn wmBtn active' id = "wmr"><img src="../Content/Images/currencies/wmr.png" alt="">WMR</button>
+                    <button class = 'btn wmBtn' id = "wmz"><img src="../Content/Images/currencies/wmz.png" alt="">WMZ</button>
+                </div>
+                <div class="realcurrencies">
+                    <button class = 'btn rlBtn active' id = "rub"><img src="../Content/Images/currencies/rub.png" alt="">RUB</button>
+                    <button class = 'btn rlBtn' id = "uah"><img src="../Content/Images/currencies/uah.png" alt="">UAH</button>
+                </div>
+            </div>
+        </div>
+        <div class="charts__container">
+            <canvas id = "myChart"></canvas>
+        </div>
+    </div>
+    
 </body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    let current_rlActive = 'RUB';
+    let current_wmActive = 'WMR';
+    const buttons = [...document.querySelectorAll('.btn')];
+    const ctx = document.getElementById('myChart').getContext('2d');
+    let chart = null;
+    let isCreated = false;
+
+    buttons.forEach(btn => btn.addEventListener('click', currentCurrency))
+    displayChart(current_rlActive, current_wmActive);
+
+    function currentCurrency(e) {
+        const elem = e.currentTarget;
+        if (elem.innerText === current_rlActive || elem.innerText === current_wmActive) return;
+
+        const typeActive = elem.className.includes('wmBtn') ? 'wm' : 'rl';
+        removeActive(typeActive);
+
+        typeActive === 'wm' ? current_wmActive = elem.innerText : current_rlActive = elem.innerText;
+        elem.classList.add('active');
+
+        displayChart(current_rlActive, current_wmActive);
+    }
+
+    function removeActive(type) {
+        const buttons = [...document.querySelectorAll(`.${type}Btn`)];
+
+        buttons.forEach(item => item.classList.remove('active'));
+    }
+
+    function displayChart(rlCurrency, wmCurrency) {
+        axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
+        .then(response => {
+            const dates = { labels: [], buy: {}, sale: {} };
+
+            for (let i = response.data.length - 1; i >= 0; i--) {
+                const item = response.data[i];
+                const date = item.FinishedAt.substring(0, 10);
+                const type = item.BidsHistoryType;
+
+                if (!dates.labels.includes(date)) {
+                    dates.labels.unshift(date);
+                    dates.buy[date] = 0;
+                    dates.sale[date] = 0;
+                }
+
+                dates[type][date] = +(dates[type][date] + (+item.AmountWm.replace(',', '.'))).toFixed(1);
+            }
+
+        const buy = Object.values(dates.buy);
+        const sale = Object.values(dates.sale);
+        
+        createChartBar(dates.labels, buy, sale);
+    })
+    .catch(err => console.error(err));
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function createChartBar(labels, buy, sale) {
+        if (isCreated) {
+            chart.data.labels = labels;
+            
+            chart.data.datasets[0].data = buy;
+            chart.data.datasets[1].data = sale;
+            chart.update();
+            return;
+        }
+
+        chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [
+            {
+                label: 'Покупка',
+                data: buy,
+                backgroundColor: '#00C0EF'
+            },
+            {
+                label: 'Продажа',
+                data: sale,
+                backgroundColor: '#00A65A'
+            }
+        ]
+        },
+        options: {
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Дни',
+                fontSize: 25
+            }
+        }
+    });
+    isCreated = true;
+    }
+
+
+    
+</script>
 </html>

@@ -1,5 +1,1061 @@
 [
     {
+        "FinishedAt": "10.08.2019 18:04",
+        "BidsHistoryType": "buy",
+        "AmountWm": "106,99",
+        "Amount": "100,00",
+        "Rate": 6.99,
+        "RateFormatted": "+6,99",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Почта Банк",
+        "CardIcon": "/Content/Images/cards/nspk mir_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 18:03",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5300,00",
+        "Amount": "5000,00",
+        "Rate": -5.66,
+        "RateFormatted": "-5,66",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Омск)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:30",
+        "BidsHistoryType": "buy",
+        "AmountWm": "2138,80",
+        "Amount": "2000,00",
+        "Rate": 6.94,
+        "RateFormatted": "+6,94",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:26",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5000,00",
+        "Amount": "4760,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:24",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10000,00",
+        "Amount": "9520,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:20",
+        "BidsHistoryType": "buy",
+        "AmountWm": "633,00",
+        "Amount": "600,00",
+        "Rate": 5.5,
+        "RateFormatted": "+5,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:13",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15825,00",
+        "Amount": "15000,00",
+        "Rate": 5.5,
+        "RateFormatted": "+5,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:12",
+        "BidsHistoryType": "sale",
+        "AmountWm": "15000,00",
+        "Amount": "14280,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:08",
+        "BidsHistoryType": "sale",
+        "AmountWm": "205,00",
+        "Amount": "200,00",
+        "Rate": -2.44,
+        "RateFormatted": "-2,44",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 17:00",
+        "BidsHistoryType": "buy",
+        "AmountWm": "2160,00",
+        "Amount": "2000,00",
+        "Rate": 8,
+        "RateFormatted": "+8,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Райффайзенбанк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:58",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10550,00",
+        "Amount": "10000,00",
+        "Rate": 5.5,
+        "RateFormatted": "+5,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:58",
+        "BidsHistoryType": "sale",
+        "AmountWm": "15000,00",
+        "Amount": "14280,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:42",
+        "BidsHistoryType": "sale",
+        "AmountWm": "2000,00",
+        "Amount": "1940,00",
+        "Rate": -3,
+        "RateFormatted": "-3,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Киров)",
+        "CardIcon": "/Content/Images/cards/maestro_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:37",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5155,00",
+        "Amount": "5000,00",
+        "Rate": -3.01,
+        "RateFormatted": "-3,01",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:36",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1008,00",
+        "Amount": "995,50",
+        "Rate": -1.24,
+        "RateFormatted": "-1,24",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "ВТБ",
+        "CardIcon": "/Content/Images/cards/nspk mir_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:26",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1070,00",
+        "Amount": "1000,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:19",
+        "BidsHistoryType": "sale",
+        "AmountWm": "412,00",
+        "Amount": "400,00",
+        "Rate": -2.91,
+        "RateFormatted": "-2,91",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:08",
+        "BidsHistoryType": "buy",
+        "AmountWm": "321,00",
+        "Amount": "300,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Банк Уралсиб",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:06",
+        "BidsHistoryType": "buy",
+        "AmountWm": "802,50",
+        "Amount": "750,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Омск)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 16:04",
+        "BidsHistoryType": "buy",
+        "AmountWm": "14300,00",
+        "Amount": "13520,00",
+        "Rate": 5.77,
+        "RateFormatted": "+5,77",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:54",
+        "BidsHistoryType": "buy",
+        "AmountWm": "14278,00",
+        "Amount": "13500,00",
+        "Rate": 5.76,
+        "RateFormatted": "+5,76",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1500,00",
+        "Amount": "1455,00",
+        "Rate": -3,
+        "RateFormatted": "-3,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Краснодар)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:47",
+        "BidsHistoryType": "sale",
+        "AmountWm": "510,00",
+        "Amount": "500,00",
+        "Rate": -1.96,
+        "RateFormatted": "-1,96",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:47",
+        "BidsHistoryType": "sale",
+        "AmountWm": "2000,00",
+        "Amount": "1940,00",
+        "Rate": -3,
+        "RateFormatted": "-3,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Киров)",
+        "CardIcon": "/Content/Images/cards/maestro_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:47",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1000,00",
+        "Amount": "970,00",
+        "Rate": -3,
+        "RateFormatted": "-3,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Краснодар)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:44",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15022,00",
+        "Amount": "14150,00",
+        "Rate": 6.16,
+        "RateFormatted": "+6,16",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10000,00",
+        "Amount": "9520,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:20",
+        "BidsHistoryType": "buy",
+        "AmountWm": "910,00",
+        "Amount": "850,00",
+        "Rate": 7.06,
+        "RateFormatted": "+7,06",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Рокетбанк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:16",
+        "BidsHistoryType": "buy",
+        "AmountWm": "2105,00",
+        "Amount": "2000,00",
+        "Rate": 5.25,
+        "RateFormatted": "+5,25",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/maestro_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 15:05",
+        "BidsHistoryType": "buy",
+        "AmountWm": "520,00",
+        "Amount": "500,00",
+        "Rate": 4,
+        "RateFormatted": "+4,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Омск)",
+        "CardIcon": "/Content/Images/cards/nspk mir_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:55",
+        "BidsHistoryType": "sale",
+        "AmountWm": "400,00",
+        "Amount": "350,00",
+        "Rate": -12.5,
+        "RateFormatted": "-12,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:55",
+        "BidsHistoryType": "buy",
+        "AmountWm": "950,00",
+        "Amount": "883,00",
+        "Rate": 7.59,
+        "RateFormatted": "+7,59",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:53",
+        "BidsHistoryType": "buy",
+        "AmountWm": "481,50",
+        "Amount": "450,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Хабаровск)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:47",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10504,00",
+        "Amount": "10000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:42",
+        "BidsHistoryType": "sale",
+        "AmountWm": "30000,00",
+        "Amount": "28560,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "15756,00",
+        "Amount": "15000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "5320,00",
+        "Amount": "5000,00",
+        "Rate": 6.4,
+        "RateFormatted": "+6,40",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:29",
+        "BidsHistoryType": "sale",
+        "AmountWm": "450,00",
+        "Amount": "400,00",
+        "Rate": -11.11,
+        "RateFormatted": "-11,11",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:23",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10400,00",
+        "Amount": "10000,00",
+        "Rate": -3.85,
+        "RateFormatted": "-3,85",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:21",
+        "BidsHistoryType": "sale",
+        "AmountWm": "1500,00",
+        "Amount": "1462,20",
+        "Rate": -2.52,
+        "RateFormatted": "-2,52",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:17",
+        "BidsHistoryType": "buy",
+        "AmountWm": "532,95",
+        "Amount": "500,00",
+        "Rate": 6.59,
+        "RateFormatted": "+6,59",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Нижний Новгород)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:17",
+        "BidsHistoryType": "sale",
+        "AmountWm": "850,00",
+        "Amount": "800,00",
+        "Rate": -5.88,
+        "RateFormatted": "-5,88",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:14",
+        "BidsHistoryType": "sale",
+        "AmountWm": "21008,00",
+        "Amount": "20000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:12",
+        "BidsHistoryType": "buy",
+        "AmountWm": "10549,00",
+        "Amount": "10000,00",
+        "Rate": 5.49,
+        "RateFormatted": "+5,49",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:10",
+        "BidsHistoryType": "buy",
+        "AmountWm": "6700,00",
+        "Amount": "6335,00",
+        "Rate": 5.76,
+        "RateFormatted": "+5,76",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Альфа-Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:08",
+        "BidsHistoryType": "sale",
+        "AmountWm": "13000,00",
+        "Amount": "12415,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 14:01",
+        "BidsHistoryType": "buy",
+        "AmountWm": "181,90",
+        "Amount": "170,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Астрахань)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:45",
+        "BidsHistoryType": "sale",
+        "AmountWm": "25000,00",
+        "Amount": "23875,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:36",
+        "BidsHistoryType": "buy",
+        "AmountWm": "321,00",
+        "Amount": "300,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Барнаул)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:35",
+        "BidsHistoryType": "sale",
+        "AmountWm": "21008,00",
+        "Amount": "20000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:34",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1070,00",
+        "Amount": "1000,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Точка банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:33",
+        "BidsHistoryType": "sale",
+        "AmountWm": "15756,00",
+        "Amount": "15000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:27",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10504,00",
+        "Amount": "10000,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:27",
+        "BidsHistoryType": "sale",
+        "AmountWm": "25000,00",
+        "Amount": "23875,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:24",
+        "BidsHistoryType": "buy",
+        "AmountWm": "1603,80",
+        "Amount": "1500,00",
+        "Rate": 6.92,
+        "RateFormatted": "+6,92",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:24",
+        "BidsHistoryType": "buy",
+        "AmountWm": "2032,00",
+        "Amount": "1900,00",
+        "Rate": 6.95,
+        "RateFormatted": "+6,95",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Калининград)",
+        "CardIcon": "/Content/Images/cards/maestro_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:21",
+        "BidsHistoryType": "buy",
+        "AmountWm": "107,00",
+        "Amount": "100,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 13:20",
+        "BidsHistoryType": "buy",
+        "AmountWm": "342,40",
+        "Amount": "320,00",
+        "Rate": 7,
+        "RateFormatted": "+7,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:57",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10000,00",
+        "Amount": "9520,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:54",
+        "BidsHistoryType": "sale",
+        "AmountWm": "25000,00",
+        "Amount": "23875,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:53",
+        "BidsHistoryType": "sale",
+        "AmountWm": "10500,00",
+        "Amount": "10000,00",
+        "Rate": -4.76,
+        "RateFormatted": "-4,76",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:52",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5000,00",
+        "Amount": "4760,00",
+        "Rate": -4.8,
+        "RateFormatted": "-4,80",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Ростов-на-Дону)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:47",
+        "BidsHistoryType": "buy",
+        "AmountWm": "160,49",
+        "Amount": "150,00",
+        "Rate": 6.99,
+        "RateFormatted": "+6,99",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:43",
+        "BidsHistoryType": "buy",
+        "AmountWm": "15022,00",
+        "Amount": "14280,00",
+        "Rate": 5.2,
+        "RateFormatted": "+5,20",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Санкт-Петербург)",
+        "CardIcon": "/Content/Images/cards/visa_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:38",
+        "BidsHistoryType": "sale",
+        "AmountWm": "20000,00",
+        "Amount": "19100,00",
+        "Rate": -4.5,
+        "RateFormatted": "-4,50",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Сбербанк России (Москва и Московская область)",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
+        "FinishedAt": "10.08.2019 12:25",
+        "BidsHistoryType": "sale",
+        "AmountWm": "5000,00",
+        "Amount": "4850,00",
+        "Rate": -3,
+        "RateFormatted": "-3,00",
+        "IsUnitPrice": false,
+        "Period": {
+            "Max": 24,
+            "Percents": 4,
+            "Value": 1
+        },
+        "BankName": "Тинькофф Банк",
+        "CardIcon": "/Content/Images/cards/mastercard_s.png"
+    },
+    {
         "FinishedAt": "09.08.2019 23:26",
         "BidsHistoryType": "buy",
         "AmountWm": "203,30",
