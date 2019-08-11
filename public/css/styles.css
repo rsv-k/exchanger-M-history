@@ -108,7 +108,6 @@ body {
 }
 
 .charts__container {
-    width: 800px;
-    height: 800px;
+    width: 80vw;
     margin: 0 auto;
 }

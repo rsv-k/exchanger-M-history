@@ -24,8 +24,10 @@
             </div>
         </div>
         <div class="charts__container">
-            <canvas id = "myChart"></canvas>
+            <canvas id = "myChart_days"></canvas>
+            <canvas id = "myChart_weeks" ></canvas>
         </div>
+        
     </div>
     
 </body>
@@ -35,12 +37,16 @@
     let current_rlActive = 'RUB';
     let current_wmActive = 'WMR';
     const buttons = [...document.querySelectorAll('.btn')];
-    const ctx = document.getElementById('myChart').getContext('2d');
-    let chart = null;
-    let isCreated = false;
+    const ctx_days = document.getElementById('myChart_days').getContext('2d');
+    const ctx_weeks = document.getElementById('myChart_weeks').getContext('2d');
+    const charts = {
+        days: null,
+        weeks: null,
+        months: null
+    }
 
     buttons.forEach(btn => btn.addEventListener('click', currentCurrency))
-    displayChart(current_rlActive, current_wmActive);
+    displayCharts(current_rlActive, current_wmActive);
 
     function currentCurrency(e) {
         const elem = e.currentTarget;
@@ -52,7 +58,7 @@
         typeActive === 'wm' ? current_wmActive = elem.innerText : current_rlActive = elem.innerText;
         elem.classList.add('active');
 
-        displayChart(current_rlActive, current_wmActive);
+        displayCharts(current_rlActive, current_wmActive);
     }
 
     function removeActive(type) {
@@ -61,7 +67,7 @@
         buttons.forEach(item => item.classList.remove('active'));
     }
 
-    function displayChart(rlCurrency, wmCurrency) {
+    function displayCharts(rlCurrency, wmCurrency) {
         axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
         .then(response => {
             const dates = { labels: [], buy: {}, sale: {} };
@@ -71,19 +77,37 @@
                 const date = item.FinishedAt.substring(0, 10);
                 const type = item.BidsHistoryType;
 
-                if (!dates.labels.includes(date)) {
-                    dates.labels.push(date);
-                    dates.buy[date] = 0;
-                    dates.sale[date] = 0;
-                }
+                if (!dates.labels.includes(date)) dates.labels.push(date);
 
-                dates[type][date] = +(dates[type][date] + (+item.AmountWm.replace(',', '.'))).toFixed(1);
+                dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
             }
 
-        const buy = Object.values(dates.buy);
-        const sale = Object.values(dates.sale);
+        const buy_days = Object.values(dates.buy);
+        const sale_days = Object.values(dates.sale);
         
-        createChartBar(dates.labels, buy, sale);
+        createChartBar('days', ctx_days, dates.labels, buy_days, sale_days, 'Дни');
+
+        const buy_weeks = [];
+        const sale_weeks = [];
+        const labels = [];
+        
+        for (let i = 0, p = 0; i < buy_days.length; i++) {
+            if (i !== 0 && i % 7 === 0) p++;
+            buy_weeks[p] = +((buy_weeks[p] || 0) + buy_days[i]).toFixed(1);
+        }
+
+        for (let i = 0, p = 0; i < sale_days.length; i++) {
+            if (i !== 0 && i % 7 === 0) p++;
+            sale_weeks[p] = +((sale_weeks[p] || 0) + sale_days[i]).toFixed(1);
+        }
+
+        for (let i = 0, p = 0; i < dates.labels.length; i++) {
+            if (i !== 0 && i % 7 === 0) {
+                labels.push(`${dates.labels[i - 7]}-${dates.labels[i - 1]}`);
+            }
+            
+        }
+        createChartBar('weeks', ctx_weeks, labels, buy_weeks, sale_weeks, 'Недели');
     })
     .catch(err => console.error(err));
     }
@@ -111,47 +135,42 @@
 
 
 
-
-    function createChartBar(labels, buy, sale) {
-        if (isCreated) {
-            chart.data.labels = labels;
+    
+    function createChartBar(chart, ctx, labels, buy, sale, title) {
+        if (charts[chart] !== null) {
+            charts[chart].data.labels = labels;
             
-            chart.data.datasets[0].data = buy;
-            chart.data.datasets[1].data = sale;
-            chart.update();
+            charts[chart].data.datasets[0].data = buy;
+            charts[chart].data.datasets[1].data = sale;
+            charts[chart].update();
             return;
         }
-
-        chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [
-            {
-                label: 'Покупка',
-                data: buy,
-                backgroundColor: '#00C0EF'
+        charts[chart] = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                {
+                    label: 'Покупка',
+                    data: buy,
+                    backgroundColor: '#00C0EF'
+                },
+                {
+                    label: 'Продажа',
+                    data: sale,
+                    backgroundColor: '#00A65A'
+                }
+            ]
             },
-            {
-                label: 'Продажа',
-                data: sale,
-                backgroundColor: '#00A65A'
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: title,
+                    fontSize: 25
+                }
             }
-        ]
-        },
-        options: {
-            responsive: true,
-            title: {
-                display: true,
-                text: 'Дни',
-                fontSize: 25
-            }
-        }
-    });
-    isCreated = true;
+        });
     }
-
-
-    
 </script>
 </html>

@@ -86,3 +86,9 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Local db's
+rub_wmr.json
+rub_wmz.json
+uah_wmr.json
+uah_wmz.json
