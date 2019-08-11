@@ -38,7 +38,7 @@ function getCurrencyData(id, currency) {
 }
 
 function saveData(data, toWhere) {
-    let filePath = `./${toWhere.toLowerCase()}.json`;
+    let filePath = `./db/${toWhere.toLowerCase()}.json`;
 
     if (fs.statSync(filePath).size !== 0) history[toWhere] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
