@@ -26,9 +26,6 @@ body {
     color: #fff;
     width: 60px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .realcurrencies {
     margin-top: 5px;
@@ -101,7 +98,10 @@ body {
     background: rgb(230, 18, 18);
 }
 
-
+.currency_img {
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 776px) {
     .img {
         display: none;
