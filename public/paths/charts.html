@@ -101,10 +101,8 @@
             sale_weeks[p] = +((sale_weeks[p] || 0) + sale_days[i]).toFixed(1);
         }
 
-        for (let i = 0, p = 0; i < dates.labels.length; i++) {
-            if (i !== 0 && i % 7 === 0) {
-                labels.push(`${dates.labels[i - 7]}-${dates.labels[i - 1]}`);
-            }
+        for (let i = 0, p = 0; i < dates.labels.length; i += 6) {
+            labels.push(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
         }
         createChartBar('weeks', ctx_weeks, labels, buy_weeks, sale_weeks, 'Недели');
     })
@@ -144,6 +142,7 @@
             charts[chart].update();
             return;
         }
+
         charts[chart] = new Chart(ctx, {
             type: 'bar',
             data: {
