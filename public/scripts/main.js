@@ -34,7 +34,7 @@ function getTransactionsData(RLcurrency, WMcurrency) {
 
 function addToTable(data, WMcurrency, RLcurrency) {
     data = data.reverse();
-    let until = amount + 10;
+    let until = amount + 20;
 
     if (until >= data.length) until = data.length;
     
@@ -86,9 +86,9 @@ function removeActive(type) {
 }
 
 const pagination = document.querySelectorAll('.pagination__btn');
-pagination[2].addEventListener('click', (e) => onPageChange(e, amount + 10) );
-pagination[3].addEventListener('click', (e) => onPageChange(e, ~~(dataLength / 10) * 10) );
-pagination[1].addEventListener('click', (e) => onPageChange(e, amount - 10) );
+pagination[2].addEventListener('click', (e) => onPageChange(e, amount + 20) );
+pagination[3].addEventListener('click', (e) => onPageChange(e, ~~(dataLength / 20) * 20) );
+pagination[1].addEventListener('click', (e) => onPageChange(e, amount - 20) );
 pagination[0].addEventListener('click', (e) => onPageChange(e, 0) );
 
 function onPageChange(e, value) {
