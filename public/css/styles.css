@@ -60,8 +60,7 @@ body {
 .bank__title { margin-left: 5px }
 
 .pagination {
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto;
     width: 300px;
     display: flex;
     justify-content: center;
@@ -97,6 +96,9 @@ body {
 .header__graphics:hover, .header__history:hover {
     border: 1px solid #00C0EF;
     background: rgb(230, 18, 18);
+}
+.img {
+    display: block;
 }
 
 @media (max-width: 776px) {
