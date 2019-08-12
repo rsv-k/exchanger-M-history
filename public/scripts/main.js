@@ -56,7 +56,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
         rows += `
             <tr>
                 <td>${data[i].FinishedAt}</td>
-                <td class = ${data[i].BidsHistoryType}>
+                <td class = '${data[i].BidsHistoryType} center'>
                 ${data[i].BidsHistoryType === 'sale' ? 'продажа' : 'покупка'}
                 </td>
                 <td>${data[i].AmountWm}</td>
@@ -65,7 +65,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
                     <img src = '${data[i].CardIcon}' class = 'img'/>
                     <span class = 'bank__title'>${data[i].BankName}</span>
                 </td>
-                <td>${data[i].RateFormatted.includes('+') || data[i].RateFormatted.includes('-') ? data[i].RateFormatted + '%' : data[i].Rate}</td>
+                <td class = center>${data[i].RateFormatted.includes('+') || data[i].RateFormatted.includes('-') ? data[i].RateFormatted + '%' : data[i].Rate}</td>
             </tr>
         `;
     }

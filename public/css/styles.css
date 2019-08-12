@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background: #ECF0F5;
+    background: #202832;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     width: 100%;
@@ -21,60 +22,66 @@ body {
 .btn {
     background: none;
     outline: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
     width: 60px;
     padding: 10px;
 }
+.realcurrencies {
+    margin-top: 5px;
+}
 .table {
     margin: 0 auto;
-    
-    table-layout: auto;
     width: 80%;
+    color: #fff;
 }
-
 
 .table td, th {
-    border: 1px solid black;
+    border: 4px solid #252E39;
     padding: 5px;
 }
+.center {
+    text-align: center;
+}
+.table thead {
+    background: #000;
+}
+.table td:nth-child(even) {
+    background: #2A3442;
+}
+.table td:nth-child(odd) {
+    background: #2C3844;
+}
 
-.active {
-    background: #3C8DBC;
-}
-.sale {
-    background: #00A65A;
-    color: #fff;
-}
-
-.buy {
-    background: #00C0EF;
-    color: #fff;
-}
-
-.bank {
-    display: flex;
-}
-.bank__title {
-    margin-left: 5px;
-}
+.active { background: #FE6055 }
+.sale   { color: #00A65A }
+.buy    { color: #00C0EF }
+.bank   { display: flex }
+.bank__title { margin-left: 5px }
 
 .pagination {
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-top: 20px;
     width: 300px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .pagination__btn {
     text-decoration: none;
-    border: 1px solid grey;
-    background: #00C0EF;
-    padding: 5px;
+    background: #FE6055;
+    padding: 10px 20px;
+    outline: 1px solid rgb(175, 59, 51);
     color: #fff;
 }
 
 .pagination__current {
-    padding: 5px;
-    font-size: 1.1em;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2em;
 }
 .header__graphics, .header__history {
     text-decoration: none;
@@ -103,7 +110,7 @@ body {
         margin: 0;
     }
     .table td {
-        height: 65px;
+        height: 80px;
     }
 }
 

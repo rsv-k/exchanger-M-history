@@ -43,10 +43,9 @@ app.get('/history/rub-wmz/api', async (req, res) => res.send(await history.RUB_W
 app.get('/history/uah-wmr/api', async (req, res) => res.send(await history.UAH_WMR.find()) );
 app.get('/history/uah-wmz/api', async (req, res) => res.send(await history.UAH_WMZ.find()) );
 
-
 app.listen(port, () => {
     console.log(`istening on port ${port}!`);
-    mongoose.connect('mongodb+srv://rsv_k:S19A18N18@transactionshistory-g9eyk.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true})
+    mongoose.connect("mongodb+srv://rsv_k:S19A18N18@transactionshistory-g9eyk.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true})
     .then(res => console.log('Connected to db'));
 });
 
