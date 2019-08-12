@@ -73,7 +73,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
     table.innerHTML = rows;
 
     const pageNumber = document.querySelector('.pagination__current');
-    pageNumber.innerText = Math.floor(amount / 10 + 1);
+    pageNumber.innerText = Math.floor(amount / 20 + 1);
 }
 function removeActive(type) {
     const pageNumber = document.querySelector('.pagination__current');
