@@ -33,6 +33,7 @@ function getTransactionsData(RLcurrency, WMcurrency) {
 }
 
 function addToTable(data, WMcurrency, RLcurrency) {
+    data = data.reverse();
     let until = amount + 10;
 
     if (until >= data.length) until = data.length;
@@ -51,6 +52,7 @@ function addToTable(data, WMcurrency, RLcurrency) {
 
     rows += '<tbody>';
     for(let i = amount; i < until; i++) {
+        makeRatePrecise(data[i]);
         rows += `
             <tr>
                 <td>${data[i].FinishedAt}</td>
@@ -96,4 +98,12 @@ function onPageChange(e, value) {
     amount = value;
     
     getTransactionsData(current_rlActive, current_wmActive);
+}
+function makeRatePrecise(data) {
+    if (data.RateFormatted.includes("+") || data.RateFormatted.includes("-")) return;
+
+    let preciseRate = (data.Amount.replace(',', '.') / data.AmountWm.replace(',', '.')).toFixed(4);
+    if (data.Rate === preciseRate) return;
+
+    data.Rate = preciseRate;
 }

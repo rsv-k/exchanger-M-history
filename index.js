@@ -1,32 +1,54 @@
 const express = require('express');
 const app = express();
-const fs = require('fs');
 const port = process.env.PORT || 3000;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+const Transaction = new Schema({
+    FinishedAt: String,
+    BidsHistoryType: String,
+    AmountWm: String,
+    Amount: String,
+    Rate: Number,
+    RateFormatted: String,
+    IsUnitPrice: Boolean,
+    Period: {
+        Max: Number,
+        Percents: Number,
+        Value: Number
+    },
+    BankName: String,
+    CardIcon: String
+});
 
 const request = require('request');
 const history = {
-    RUB_WMR: [],
-    RUB_WMZ: [],
-    UAH_WMR: [],
-    UAH_WMZ: []
+    RUB_WMR: mongoose.model('RUB_WMR', Transaction),
+    RUB_WMZ: mongoose.model('RUB_WMZ', Transaction),
+    UAH_WMR: mongoose.model('UAH_WMZ', Transaction),
+    UAH_WMZ: mongoose.model('UAH_WMR', Transaction)
 }
 
 app.use(express.static('public'));
 
-reqeustCurrenciesData();
+requestCurrenciesData();
 
 setInterval(() => {
-    reqeustCurrenciesData();
+    requestCurrenciesData();
 
-    console.log('files have been saved');
+    console.log('data has been added to database');
 }, 300000);
 
-app.get('/history/rub-wmr/api', (req, res) => res.send(JSON.stringify(history.RUB_WMR)) );
-app.get('/history/rub-wmz/api', (req, res) => res.send(JSON.stringify(history.RUB_WMZ)) );
-app.get('/history/uah-wmr/api', (req, res) => res.send(JSON.stringify(history.UAH_WMR)) );
-app.get('/history/uah-wmz/api', (req, res) => res.send(JSON.stringify(history.UAH_WMZ)) );
+app.get('/history/rub-wmr/api', async (req, res) => res.send(await history.RUB_WMR.find()) );
+app.get('/history/rub-wmz/api', async (req, res) => res.send(await history.RUB_WMZ.find()) );
+app.get('/history/uah-wmr/api', async (req, res) => res.send(await history.UAH_WMR.find()) );
+app.get('/history/uah-wmz/api', async (req, res) => res.send(await history.UAH_WMZ.find()) );
 
-app.listen(port, () => console.log(`istening on port ${port}!`));
+
+app.listen(port, () => {
+    console.log(`istening on port ${port}!`);
+    mongoose.connect('mongodb+srv://rsv_k:S19A18N18@transactionshistory-g9eyk.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true})
+    .then(res => console.log('Connected to db'));
+});
 
 function getCurrencyData(id, currency) {
     request(`https://exchanger.money/cards/bids/bidshistorylist?Id=${id}`, (err, res, body) => {
@@ -37,33 +59,22 @@ function getCurrencyData(id, currency) {
     });
 }
 
-function saveData(data, toWhere) {
-    let filePath = `./db/${toWhere.toLowerCase()}.json`;
-
-    if (fs.statSync(filePath).size !== 0) history[toWhere] = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-    for (let i = data.length - 1; i >= 0; i--) {
-        makeRatePrecise(data[i]);
-        if (JSON.stringify(history[toWhere]).includes(JSON.stringify(data[i]))) continue;
+async function saveData(data, toWhere) {
+    const transactions = [];
+    for (let i = 0; i < data.length; i++) {
+        if (await history[toWhere].exists(data[i])) continue;
         
-        history[toWhere] = [data[i], ...history[toWhere]];
+        transactions.unshift(data[i]);
     }
-    
-    fs.writeFile(filePath, JSON.stringify(history[toWhere], null, 4), err => {
-        if (err) return console.log(err);
-    });
+    if (transactions.length) {
+        history[toWhere].collection.insertMany(transactions, (err, res) => {
+            if (err) console.error(err);
+        });
+    }
 }
-function reqeustCurrenciesData() {
+async function requestCurrenciesData() {
     getCurrencyData(2,  'RUB_WMR');
     getCurrencyData(67, 'RUB_WMZ');
     getCurrencyData(73, 'UAH_WMR');
     getCurrencyData(69, 'UAH_WMZ');
-}
-function makeRatePrecise(data) {
-    if (data.RateFormatted.includes("+") || data.RateFormatted.includes("-")) return;
-
-    let preciseRate = (data.Amount.replace(',', '.') / data.AmountWm.replace(',', '.')).toFixed(4);
-    if (data.Rate === preciseRate) return;
-
-    data.Rate = preciseRate;
 }
