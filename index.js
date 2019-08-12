@@ -45,7 +45,7 @@ app.get('/history/uah-wmz/api', async (req, res) => res.send(await history.UAH_W
 
 app.listen(port, () => {
     console.log(`istening on port ${port}!`);
-    mongoose.connect(process.env.mongo_uri, {useNewUrlParser: true})
+    mongoose.connect(process.env.mongo_uri || 'mongodb+srv://rsv_k:S19A18N18@transactionshistory-g9eyk.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true})
     .then(res => console.log('Connected to db'));
 });
 

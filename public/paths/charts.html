@@ -72,7 +72,7 @@
         .then(response => {
             const dates = { labels: [], buy: {}, sale: {} };
 
-            for (let i = response.data.length - 1; i >= 0; i--) {
+            for (let i = 0; i < response.data.length; i++) {
                 const item = response.data[i];
                 const date = item.FinishedAt.substring(0, 10);
                 const type = item.BidsHistoryType;
@@ -102,7 +102,7 @@
         }
 
         for (let i = 0, p = 0; i < dates.labels.length; i += 6) {
-            labels.push(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
+            labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
         }
         createChartBar('weeks', ctx_weeks, labels, buy_weeks, sale_weeks, 'Недели');
     })
@@ -166,6 +166,13 @@
                     display: true,
                     text: title,
                     fontSize: 25
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
                 }
             }
         });
