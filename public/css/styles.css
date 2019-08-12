@@ -99,6 +99,7 @@ body {
 }
 .currency_img {
     display: block;
+    text-align: center;
 }
 
 @media (max-width: 776px) {
