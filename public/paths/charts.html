@@ -24,6 +24,7 @@
             </div>
         </div>
         <div class="charts__container">
+            <canvas id = "myChart_line"></canvas>
             <canvas id = "myChart_days"></canvas>
             <canvas id = "myChart_weeks" ></canvas>
         </div>
@@ -37,12 +38,17 @@
     let current_rlActive = 'RUB';
     let current_wmActive = 'WMR';
     const buttons = [...document.querySelectorAll('.btn')];
+    const ctx_line = document.getElementById('myChart_line').getContext('2d');
     const ctx_days = document.getElementById('myChart_days').getContext('2d');
     const ctx_weeks = document.getElementById('myChart_weeks').getContext('2d');
     const charts = {
-        days: null,
-        weeks: null,
-        months: null
+        bar: {
+            days: null,
+            weeks: null,
+            months: null
+        },
+        line: null
+        
     }
 
     buttons.forEach(btn => btn.addEventListener('click', currentCurrency))
@@ -70,7 +76,7 @@
     function displayCharts(rlCurrency, wmCurrency) {
         axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
         .then(response => {
-            const dates = { labels: [], buy: {}, sale: {} };
+            const dates = { labels: [], buy: {}, sale: {}, lineLabels: [], lineRates: [] };
 
             for (let i = 0; i < response.data.length; i++) {
                 const item = response.data[i];
@@ -78,6 +84,11 @@
                 const type = item.BidsHistoryType;
 
                 if (!dates.labels.includes(date)) dates.labels.push(date);
+                dates.lineLabels.push(item.FinishedAt);
+
+                if (rlCurrency === 'RUB' && wmCurrency === 'WMR') dates.lineRates.push(item.Rate);
+                else dates.lineRates.push((item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4));
+                
 
                 dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
             }
@@ -85,6 +96,7 @@
         const buy_days = Object.values(dates.buy);
         const sale_days = Object.values(dates.sale);
         
+        createChartLine(dates.lineLabels, dates.lineRates);
         createChartBar('days', ctx_days, dates.labels, buy_days, sale_days, 'Дни');
 
         const buy_weeks = [];
@@ -134,16 +146,16 @@
 
     
     function createChartBar(chart, ctx, labels, buy, sale, title) {
-        if (charts[chart] !== null) {
-            charts[chart].data.labels = labels;
+        if (charts.bar[chart] !== null) {
+            charts.bar[chart].data.labels = labels;
             
-            charts[chart].data.datasets[0].data = buy;
-            charts[chart].data.datasets[1].data = sale;
-            charts[chart].update();
+            charts.bar[chart].data.datasets[0].data = buy;
+            charts.bar[chart].data.datasets[1].data = sale;
+            charts.bar[chart].update();
             return;
         }
 
-        charts[chart] = new Chart(ctx, {
+        charts.bar[chart] = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: labels,
@@ -173,6 +185,45 @@
                             beginAtZero: true
                         }
                     }]
+                }
+            }
+        });
+    }
+    function createChartLine(labels, rate) {
+        if (charts.line !== null) {
+            charts.line.data.labels = labels;
+            charts.line.data.datasets[0].data = rate;
+            charts.line.update();
+            return;
+        }
+
+        charts.line = new Chart(ctx_line, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                {
+                    label: 'Курс',
+                    showLine: true,
+                    data: rate,
+                    backgroundColor: 'rgba(255, 0, 0, 1)'
+                }
+            ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Курс каждой сделки',
+                    fontSize: 25
+                },
+                elements: {
+                    line: {
+                        fill: false,
+                        borderColor: 'rgba(0, 192, 239, 0.2)'
+                    },
+                    point: {
+                        radius: 5
+                    }
                 }
             }
         });
