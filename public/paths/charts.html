@@ -13,15 +13,23 @@
         <div class="header">
             <a href="../index.html" class="header__history">История</a>
             <div class="buttons">
-                <div class="wmcurrencies">
-                    <button class = 'btn wmBtn active' id = "wmr"><img src="../Content/Images/currencies/wmr.png" alt="">WMR</button>
-                    <button class = 'btn wmBtn' id = "wmz"><img src="../Content/Images/currencies/wmz.png" alt="">WMZ</button>
+                    <div class="wmcurrencies">
+                        <button class = 'btn wmBtn active' id = "wmr">
+                            <img class = 'currency_img' src="./Content/Images/currencies/wmr.png" alt="">
+                            <span class = 'currency_value'>WMR</span></button>
+                        <button class = 'btn wmBtn' id = "wmz">
+                            <img class = 'currency_img' src="./Content/Images/currencies/wmz.png" alt="">
+                            <span class = 'currency_value'>WMZ</span></button>
+                    </div>
+                    <div class="realcurrencies">
+                        <button class = 'btn rlBtn active' id = "rub">
+                            <img class = 'currency_img' src="./Content/Images/currencies/rub.png" alt="">
+                            <span class = 'currency_value'>RUB</span></button>
+                        <button class = 'btn rlBtn' id = "uah">
+                            <img class = 'currency_img' src="./Content/Images/currencies/uah.png" alt="">
+                            <span class = 'currency_value'>UAH</span></button>
+                    </div>
                 </div>
-                <div class="realcurrencies">
-                    <button class = 'btn rlBtn active' id = "rub"><img src="../Content/Images/currencies/rub.png" alt="">RUB</button>
-                    <button class = 'btn rlBtn' id = "uah"><img src="../Content/Images/currencies/uah.png" alt="">UAH</button>
-                </div>
-            </div>
         </div>
         <div class="charts__container">
             <canvas id = "myChart_line"></canvas>
@@ -203,10 +211,8 @@
                 labels: labels,
                 datasets: [
                 {
-                    label: 'Курс',
-                    showLine: true,
                     data: rate,
-                    backgroundColor: 'rgba(255, 0, 0, 1)'
+                    backgroundColor: 'rgba(255, 0, 0, 1)',
                 }
             ]
             },
@@ -224,6 +230,9 @@
                     point: {
                         radius: 5
                     }
+                },
+                legend: {
+                    display: false
                 }
             }
         });
