@@ -32,7 +32,8 @@
                 </div>
         </div>
         <div class="charts__container">
-            <canvas id = "myChart_line"></canvas>
+            <canvas id = "myChart_line_buy"></canvas>
+            <canvas id = "myChart_line_sale"></canvas>
             <canvas id = "myChart_days"></canvas>
             <canvas id = "myChart_weeks" ></canvas>
         </div>
@@ -46,7 +47,8 @@
     let current_rlActive = 'RUB';
     let current_wmActive = 'WMR';
     const buttons = [...document.querySelectorAll('.btn')];
-    const ctx_line = document.getElementById('myChart_line').getContext('2d');
+    const ctx_lineBuy = document.getElementById('myChart_line_buy').getContext('2d');
+    const ctx_lineSale = document.getElementById('myChart_line_sale').getContext('2d');
     const ctx_days = document.getElementById('myChart_days').getContext('2d');
     const ctx_weeks = document.getElementById('myChart_weeks').getContext('2d');
     const charts = {
@@ -55,8 +57,10 @@
             weeks: null,
             months: null
         },
-        line: null
-        
+        line: {
+            buy: null,
+            sale: null
+        }
     }
 
     buttons.forEach(btn => btn.addEventListener('click', currentCurrency))
@@ -84,7 +88,7 @@
     function displayCharts(rlCurrency, wmCurrency) {
         axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
         .then(response => {
-            const dates = { labels: [], buy: {}, sale: {}, lineLabels: [], lineRates: [] };
+            const dates = { labels: [], buy: {}, sale: {}, lineLabels_buy: [], lineLabels_sale: [], lineRates_buy: [], lineRates_sale: [], colorsBuy: [], colorsSale: [] };
 
             for (let i = 0; i < response.data.length; i++) {
                 const item = response.data[i];
@@ -92,19 +96,36 @@
                 const type = item.BidsHistoryType;
 
                 if (!dates.labels.includes(date)) dates.labels.push(date);
-                dates.lineLabels.push(item.FinishedAt);
 
-                if (rlCurrency === 'RUB' && wmCurrency === 'WMR') dates.lineRates.push(item.Rate);
-                else dates.lineRates.push((item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4));
+                const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate : (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
+
+                if (item.BidsHistoryType === 'buy') {
+                    dates.lineRates_buy.push(rate);
+                    dates.lineLabels_buy.push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
+                }
+                else {
+                    dates.lineRates_sale.push(rate);
+                    dates.lineLabels_sale.push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
+                }
                 
-
                 dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
             }
 
         const buy_days = Object.values(dates.buy);
         const sale_days = Object.values(dates.sale);
+
+        const maxBuyRate = Math.max(...dates.lineRates_buy);
+        const maxSaleRate = Math.max(...dates.lineRates_sale);
+
+        for (let i = 0; i < dates.lineRates_buy.length; i++) {
+            dates.colorsBuy.push(`hsla(0, 100%, ${(dates.lineRates_buy[i] / maxBuyRate) * 50}%, 1)`);
+        }
+        for (let i = 0; i < dates.lineRates_sale.length; i++) {
+            dates.colorsSale.push(`hsla(120, 100%, ${Math.abs(dates.lineRates_sale[i] / maxSaleRate)}%, 1)`);
+        }
         
-        createChartLine(dates.lineLabels, dates.lineRates);
+        createChartLine(ctx_lineBuy, 'buy', dates.lineLabels_buy, dates.lineRates_buy, 'Покупка', dates.colorsBuy);
+        createChartLine(ctx_lineSale, 'sale', dates.lineLabels_sale, dates.lineRates_sale, 'Продажа', dates.colorsSale);
         createChartBar('days', ctx_days, dates.labels, buy_days, sale_days, 'Дни');
 
         const buy_weeks = [];
@@ -185,34 +206,42 @@
                 title: {
                     display: true,
                     text: title,
-                    fontSize: 25
+                    fontSize: 25,
+                    fontColor: '#fff'
                 },
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: true,
+                            fontColor: '#fff'
+                        }
+                    }],
+                    xAxes: [{
+                        ticks: {
+                            fontColor: '#fff'
                         }
                     }]
                 }
             }
         });
     }
-    function createChartLine(labels, rate) {
-        if (charts.line !== null) {
-            charts.line.data.labels = labels;
-            charts.line.data.datasets[0].data = rate;
-            charts.line.update();
+    function createChartLine(ctx, type, labels, rate, title, colors,) {
+        if (charts.line[type] !== null) {
+            charts.line[type].data.labels = labels;
+            charts.line[type].data.datasets[0].data = rate;
+            charts.line[type].update();
             return;
         }
 
-        charts.line = new Chart(ctx_line, {
+        charts.line[type] = new Chart(ctx, {
             type: 'line',
             data: {
                 labels: labels,
                 datasets: [
                 {
+                    label: title,
                     data: rate,
-                    backgroundColor: 'rgba(255, 0, 0, 1)',
+                    backgroundColor: colors,
                 }
             ]
             },
@@ -220,19 +249,36 @@
                 title: {
                     display: true,
                     text: 'Курс каждой сделки',
-                    fontSize: 25
+                    fontSize: 25,
+                    fontColor: '#fff'
                 },
                 elements: {
                     line: {
                         fill: false,
-                        borderColor: 'rgba(0, 192, 239, 0.2)'
+                        borderColor: 'rgba(0, 192, 239, 0.2)',
+                        tension: 0
                     },
                     point: {
                         radius: 5
                     }
                 },
-                legend: {
-                    display: false
+                scales:{
+                    xAxes: [{
+                        display: false,
+                        gridLines: {
+                            display: false
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            fontColor: '#fff'
+                        }
+                    }]
+                },
+                layout: {
+                    padding: {
+                        right: 5
+                    }
                 }
             }
         });
