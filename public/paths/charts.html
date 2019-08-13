@@ -37,9 +37,7 @@
             <canvas id = "myChart_days"></canvas>
             <canvas id = "myChart_weeks" ></canvas>
         </div>
-        
     </div>
-    
 </body>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -94,58 +92,72 @@
                 const item = response.data[i];
                 const date = item.FinishedAt.substring(0, 10);
                 const type = item.BidsHistoryType;
-
+                
                 if (!dates.labels.includes(date)) dates.labels.push(date);
 
                 const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate : (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
 
-                if (item.BidsHistoryType === 'buy') {
-                    dates.lineRates_buy.push(rate);
-                    dates.lineLabels_buy.push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
-                }
-                else {
-                    dates.lineRates_sale.push(rate);
-                    dates.lineLabels_sale.push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
-                }
+                dates[`lineRates_${type}`].push(rate);
+                dates[`lineLabels_${type}`].push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
                 
                 dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
             }
 
-        const buy_days = Object.values(dates.buy);
-        const sale_days = Object.values(dates.sale);
-
-        const maxBuyRate = Math.max(...dates.lineRates_buy);
-        const maxSaleRate = Math.max(...dates.lineRates_sale);
-
-        for (let i = 0; i < dates.lineRates_buy.length; i++) {
-            dates.colorsBuy.push(`hsla(0, 100%, ${(dates.lineRates_buy[i] / maxBuyRate) * 50}%, 1)`);
-        }
-        for (let i = 0; i < dates.lineRates_sale.length; i++) {
-            dates.colorsSale.push(`hsla(120, 100%, ${Math.abs(dates.lineRates_sale[i] / maxSaleRate)}%, 1)`);
-        }
+            const line = {
+                ctx: ctx_lineBuy,
+                chart: 'buy',
+                labels: dates.lineLabels_buy,
+                rates: dates.lineRates_buy,
+                title: 'Покупка',
+                colors: 'rgba(255, 0, 0, 1)',
+                type: 'line'
+            }
+            const bar = {
+                ctx: ctx_days,
+                chart: 'days',
+                labels: dates.labels,
+                buy: Object.values(dates.buy),
+                sale: Object.values(dates.sale),
+                title: 'Дни',
+                type: 'bar'
+            }
         
-        createChartLine(ctx_lineBuy, 'buy', dates.lineLabels_buy, dates.lineRates_buy, 'Покупка', dates.colorsBuy);
-        createChartLine(ctx_lineSale, 'sale', dates.lineLabels_sale, dates.lineRates_sale, 'Продажа', dates.colorsSale);
-        createChartBar('days', ctx_days, dates.labels, buy_days, sale_days, 'Дни');
+            createChart(line);
+            line.ctx = ctx_lineSale;
+            line.chart = 'sale';
+            line.labels = dates.lineLabels_sale;
+            line.rates = dates.lineRates_sale;
+            line.title = 'Продажа';
+            line.colors = 'rgba(0, 255, 0, 1)';
+            createChart(line);
+            createChart(bar);
 
-        const buy_weeks = [];
-        const sale_weeks = [];
-        const labels = [];
-        
-        for (let i = 0, p = 0; i < buy_days.length; i++) {
-            if (i !== 0 && i % 7 === 0) p++;
-            buy_weeks[p] = +((buy_weeks[p] || 0) + buy_days[i]).toFixed(1);
-        }
+            const weeks = {
+                buy: [],
+                sale: [],
+                labels: []
+            }
 
-        for (let i = 0, p = 0; i < sale_days.length; i++) {
-            if (i !== 0 && i % 7 === 0) p++;
-            sale_weeks[p] = +((sale_weeks[p] || 0) + sale_days[i]).toFixed(1);
-        }
+            const maxLen = Math.max(bar.buy.length, bar.sale.length);
+            
+            for (let i = 0, p = 0; i < maxLen; i++) {
+                if (i !== 0 && i % 7 === 0) p++;
 
-        for (let i = 0, p = 0; i < dates.labels.length; i += 6) {
-            labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
-        }
-        createChartBar('weeks', ctx_weeks, labels, buy_weeks, sale_weeks, 'Недели');
+                if (bar.sale[i]) weeks.sale[p] = +((weeks.sale[p] || 0) + bar.sale[i]).toFixed(1);
+                if (bar.buy[i]) weeks.buy[p] = +((weeks.buy[p] || 0 ) + bar.buy[i]).toFixed(1);
+            }
+            
+            for (let i = 0, p = 0; i < dates.labels.length; i += 6) {
+                weeks.labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
+            }
+
+            bar.ctx = ctx_weeks;
+            bar.labels = weeks.labels;
+            bar.buy = weeks.buy;
+            bar.sale = weeks.sale;
+            bar.chart = 'weeks';
+            bar.title = 'Недели';
+            createChart(bar);
     })
     .catch(err => console.error(err));
     }
@@ -167,121 +179,119 @@
 
 
 
+function updateLine(chart) {
+    charts.line[chart.chart].data.labels = chart.labels;
+    charts.line[chart.chart].data.datasets[0].data = chart.rates;
+    charts.line[chart.chart].update();
+}
+
+function updateBar(chart) {
+    charts.bar[chart.chart].data.labels = chart.labels;
+    charts.bar[chart.chart].data.datasets[0].data = chart.buy;
+    charts.bar[chart.chart].data.datasets[1].data = chart.sale;
+    charts.bar[chart.chart].update();
+}
 
 
+function createChart(chart) {
+    let options = null;
+    let data = null;
 
-
-
-
-    
-    function createChartBar(chart, ctx, labels, buy, sale, title) {
-        if (charts.bar[chart] !== null) {
-            charts.bar[chart].data.labels = labels;
-            
-            charts.bar[chart].data.datasets[0].data = buy;
-            charts.bar[chart].data.datasets[1].data = sale;
-            charts.bar[chart].update();
-            return;
+    if (chart.type === 'bar') {
+        if (charts[chart.type][chart.chart]) return updateBar(chart);
+        options = {
+            title: {
+                display: true,
+                text: chart.title,
+                fontSize: 25,
+                fontColor: '#fff'
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        fontColor: '#fff'
+                    }
+                }],
+                xAxes: [{
+                    ticks: {
+                        fontColor: '#fff'
+                    }
+                }]
+            }
         }
-
-        charts.bar[chart] = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [
+        data = {
+            labels: chart.labels,
+            datasets: [
                 {
                     label: 'Покупка',
-                    data: buy,
+                    data: chart.buy,
                     backgroundColor: '#00C0EF'
                 },
                 {
                     label: 'Продажа',
-                    data: sale,
+                    data: chart.sale,
                     backgroundColor: '#00A65A'
                 }
             ]
-            },
-            options: {
-                responsive: true,
-                title: {
-                    display: true,
-                    text: title,
-                    fontSize: 25,
-                    fontColor: '#fff'
-                },
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            fontColor: '#fff'
-                        }
-                    }],
-                    xAxes: [{
-                        ticks: {
-                            fontColor: '#fff'
-                        }
-                    }]
-                }
-            }
-        });
-    }
-    function createChartLine(ctx, type, labels, rate, title, colors,) {
-        if (charts.line[type] !== null) {
-            charts.line[type].data.labels = labels;
-            charts.line[type].data.datasets[0].data = rate;
-            charts.line[type].update();
-            return;
         }
-
-        charts.line[type] = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [
-                {
-                    label: title,
-                    data: rate,
-                    backgroundColor: colors,
-                }
-            ]
+    }
+    else if (chart.type === 'line') {
+        if (charts[chart.type][chart.chart]) return updateLine(chart);
+        options = {
+            title: {
+                text: 'Курс каждой сделки',
             },
-            options: {
-                title: {
-                    display: true,
-                    text: 'Курс каждой сделки',
-                    fontSize: 25,
-                    fontColor: '#fff'
+            elements: {
+                line: {
+                    fill: false,
+                    borderColor: 'rgba(0, 192, 239, 0.2)',
+                    tension: 0
                 },
-                elements: {
-                    line: {
-                        fill: false,
-                        borderColor: 'rgba(0, 192, 239, 0.2)',
-                        tension: 0
-                    },
-                    point: {
-                        radius: 5
+                point: {
+                    radius: 5
+                }
+            },
+            scales:{
+                xAxes: [{
+                    display: false,
+                    gridLines: {
+                        display: false
                     }
-                },
-                scales:{
-                    xAxes: [{
-                        display: false,
-                        gridLines: {
-                            display: false
-                        }
-                    }],
-                    yAxes: [{
-                        ticks: {
-                            fontColor: '#fff'
-                        }
-                    }]
-                },
-                layout: {
-                    padding: {
-                        right: 5
+                }],
+                yAxes: [{
+                    ticks: {
+                        fontColor: '#fff'
                     }
+                }]
+            },
+            layout: {
+                padding: {
+                    right: 5
                 }
             }
-        });
+        }
+        data = {
+            labels: chart.labels,
+            datasets: [
+            {
+                label: chart.title,
+                data: chart.rates,
+                backgroundColor: chart.colors,
+            }
+            ]
+        }
     }
+    // Mutual properties
+    options.title.display = true;
+    options.fontSize = 25;
+    options.fontColor = '#fff';
+
+    charts[chart.type][chart.chart] = new Chart(chart.ctx, {
+        type: chart.type,
+        data,
+        options
+    });
+}
 </script>
 </html>
