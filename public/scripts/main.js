@@ -3,17 +3,16 @@ const tbody = document.querySelector('.table>tbody');
 const pageNumber = document.querySelector('.pagination__current');
 let current_rlActive = 'RUB';
 let current_wmActive = 'WMR';
-let data = [];
-// let data = {
-//     mutual: [],
-//     buy: [],
-//     sale: [],
-//     mutualLength: null,
-//     buyLength: null,
-//     saleLength: null
-// };
-let dataLength = 0;
-let amount = 0;
+let global = {
+    data: [],
+    buy: [],
+    sale: [],
+    currentLength: null,
+    buyLength: null,
+    saleLength: null,
+    amount: 0,
+    activeTable: null
+};
 
 // Display at the beginning
 getTransactionsData('RUB', 'WMR');
@@ -33,30 +32,29 @@ function onClickActive(e) {
     elem.classList.add('active');
 }
 
-function getTransactionsData(RLcurrency, WMcurrency) {
-    axios.get(`/history/${RLcurrency}-${WMcurrency}/api`.toLowerCase())
-    .then(response => { 
-        data = response.data.reverse();
-        dataLength = data.length;
+async function getTransactionsData(RLcurrency, WMcurrency) {
+    const response = await axios.get(`/history/${RLcurrency}-${WMcurrency}/api`.toLowerCase());
+    
+    global.data = response.data.reverse();
+    global.currentLength = global.data.length;
+    global.buy = getSpecificType('buy');
+    global.sale = getSpecificType('sale');
 
-        addToTable(data, WMcurrency, RLcurrency);
-    })
-    .catch(err => console.error(err));
+    addToTable(global.data, WMcurrency, RLcurrency);
 }
 
 function addToTable(data, WMcurrency, RLcurrency) {
-    let until = Math.min(amount + 20, data.length);
+    let until = Math.min(global.amount + 20, data.length);
 
     changeColumns(WMcurrency, RLcurrency);
-    
     let rows = ``;
 
-    for (let i = amount; i < until; i++) {
+    for (let i = global.amount; i < until; i++) {
         makeRatePrecise(data[i]);
         rows += createRow(data[i]);
     }
     tbody.innerHTML = rows;
-    pageNumber.innerText = Math.floor(amount / 20 + 1);
+    pageNumber.innerText = Math.floor(global.amount / 20 + 1);
 }
 function createRow(data) {
     return `<tr class = "table__row">
@@ -82,7 +80,7 @@ function removeActive(type) {
     const pageNumber = document.querySelector('.pagination__current');
     pageNumber.innerText = 1;
 
-    amount = 0;
+    global.amount = 0;
     const buttons = [...document.querySelectorAll(`.${type}Btn`)];
 
     buttons.forEach(item => item.classList.remove('active'));
@@ -94,16 +92,16 @@ pages.addEventListener('click', e => {
     const btn = e.target;
     
     if (btn.className.includes('first')) onPageChange(0);
-    else if (btn.className.includes('prev')) onPageChange(amount - 20);
-    else if (btn.className.includes('next')) onPageChange(amount + 20);
-    else if (btn.className.includes('last')) onPageChange(Math.floor(dataLength / 20) * 20);
+    else if (btn.className.includes('prev')) onPageChange(global.amount - 20);
+    else if (btn.className.includes('next')) onPageChange(global.amount + 20);
+    else if (btn.className.includes('last')) onPageChange(Math.floor(global.currentLength / 20) * 20);
 });
 
 function onPageChange(value) {
-    if (value >= dataLength || value < 0) return;
-    amount = value;
+    if (value >= global.currentLength || value < 0) return;
+    global.amount = value;
     
-    addToTable(data, current_wmActive, current_rlActive);
+    addToTable(global[global.activeTable] || global.data, current_wmActive, current_rlActive);
 }
 function makeRatePrecise(data) {
     if (data.RateFormatted.includes("+") || data.RateFormatted.includes("-")) return;
@@ -114,11 +112,22 @@ function makeRatePrecise(data) {
     data.Rate = preciseRate;
 }
 
-const type = document.querySelector('.table__type');
 tbody.addEventListener('click', e => {
     const elem = e.target.className;
     if (!elem.includes('type')) return;
     const type = elem.split(' ')[0];
+    global.activeTable = global.activeTable === null ? type : null;
+    global.currentLength = global[global.activeTable] ? global[global.activeTable].length : global.data.length;
 
-    addToTable(data, current_rlActive, current_wmActive, type);
-})
+    addToTable(global[global.activeTable] || global.data, current_rlActive, current_wmActive);
+});
+
+function getSpecificType(type) {
+    let specific = [];
+    let data = global.data;
+    for (let i = 0; i < data.length; i++) {
+        if (data[i].BidsHistoryType === type) specific.push(data[i]);
+    }
+
+    return specific;
+}
