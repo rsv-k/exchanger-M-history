@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
+        <a href="paths/charts.html" class="header__graphics">Графики</a>
         <div class="header">
-            <a href="paths/charts.html" class="header__graphics">Графики</a>
             <div class="buttons">
                 <div class="wmcurrencies">
                     <button class = 'btn wmBtn active' id = "wmr">
@@ -30,13 +30,26 @@
                 </div>
             </div>
         </div>
-        <table class = 'table' cellspacing="0" cellpadding="0"></table>
+
+        <table class = 'table' cellspacing="0" cellpadding="0">
+            <thead>
+                <tr class = 'table__row'>
+                    <th>Завершено</th>
+                    <th class = 'table__type'>Тип</th>
+                    <th class = 'table__currencyAmount'>Количество WMR</th>
+                    <th class = 'table__currencyAmount'>Количество RUB</th>
+                    <th>Банк</th>
+                    <th>Курс</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
         <div class = 'pagination'>
-            <a class = 'pagination__btn' href="#"><<</a>
-            <a class = 'pagination__btn' href="#"><</a>
+            <a class = 'pagination__btn pagination__btn--first' href="#"><<</a>
+            <a class = 'pagination__btn pagination__btn--prev' href="#"><</a>
             <span class = 'pagination__current'>1</span>
-            <a class = 'pagination__btn' href="#">></a>
-            <a class = 'pagination__btn' href="#">>></a>
+            <a class = 'pagination__btn pagination__btn--next' href="#">></a>
+            <a class = 'pagination__btn pagination__btn--last' href="#">>></a>
         </div>
     </div>
 </body>

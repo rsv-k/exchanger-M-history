@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    
     <link rel="stylesheet" href="../css/styles.css">
     <title>Charts</title>
 </head>
@@ -41,6 +41,9 @@
 </body>
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.3"></script>
 <script>
     let current_rlActive = 'RUB';
     let current_wmActive = 'WMR';
@@ -87,6 +90,10 @@
         axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
         .then(response => {
             const dates = { labels: [], buy: {}, sale: {}, lineLabels_buy: [], lineLabels_sale: [], lineRates_buy: [], lineRates_sale: [], colorsBuy: [], colorsSale: [] };
+            const amountWm = {
+                buy: [],
+                sale: []
+            }
 
             for (let i = 0; i < response.data.length; i++) {
                 const item = response.data[i];
@@ -95,22 +102,42 @@
                 
                 if (!dates.labels.includes(date)) dates.labels.push(date);
 
-                const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate : (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
+                const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate 
+                : 
+                (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
 
+                amountWm[type].push(+item.AmountWm.replace(',', '.'));
                 dates[`lineRates_${type}`].push(rate);
                 dates[`lineLabels_${type}`].push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
                 
                 dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
             }
+            const colors = {
+                buy: [],
+                sale: []
+            }
+            let divisor = current_wmActive === 'WMR' ? 50000 : 500;
+            let min = current_wmActive === 'WMR' ? 1000 : 100;
 
+            for (let i = 0; i < amountWm.buy.length; i++) {
+                // if (amountWm.buy[i] < min) colors.buy.push(`hsla(0, 190%, 50%, 1)`);
+                colors.buy.push(`rgb(255, ${20 + Math.min(100, Math.floor((amountWm.buy[i] / divisor) * 100))}, 0)`);
+            }
+
+            for (let i = 0; i < amountWm.sale.length; i++) {
+                // if (amountWm.sale[i] < min) colors.sale.push(`hsla(120, 0%, 50%, 1)`);
+                colors.sale.push(`rgb(255, ${155 + Math.min(100, Math.floor((amountWm.sale[i] / divisor) * 100))}, 0)`);
+            }
+            
             const line = {
                 ctx: ctx_lineBuy,
                 chart: 'buy',
                 labels: dates.lineLabels_buy,
                 rates: dates.lineRates_buy,
                 title: 'Покупка',
-                colors: 'rgba(255, 0, 0, 1)',
-                type: 'line'
+                colors: colors.buy,
+                type: 'line',
+                text: 'покупки'
             }
             const bar = {
                 ctx: ctx_days,
@@ -119,7 +146,7 @@
                 buy: Object.values(dates.buy),
                 sale: Object.values(dates.sale),
                 title: 'Дни',
-                type: 'bar'
+                type: 'bar',
             }
         
             createChart(line);
@@ -128,7 +155,8 @@
             line.labels = dates.lineLabels_sale;
             line.rates = dates.lineRates_sale;
             line.title = 'Продажа';
-            line.colors = 'rgba(0, 255, 0, 1)';
+            line.colors = colors.sale;
+            line.text = 'продажи';
             createChart(line);
             createChart(bar);
 
@@ -161,8 +189,6 @@
     })
     .catch(err => console.error(err));
     }
-    
-    
 
 
 
@@ -182,6 +208,7 @@
 function updateLine(chart) {
     charts.line[chart.chart].data.labels = chart.labels;
     charts.line[chart.chart].data.datasets[0].data = chart.rates;
+    charts.line[chart.chart].data.datasets[0].backgroundColor = chart.colors;
     charts.line[chart.chart].update();
 }
 
@@ -240,7 +267,10 @@ function createChart(chart) {
         if (charts[chart.type][chart.chart]) return updateLine(chart);
         options = {
             title: {
-                text: 'Курс каждой сделки',
+                display: true,
+                fontSize: 25,
+                fontColor: '#fff',
+                text: 'Курс каждой ' + chart.text,
             },
             elements: {
                 line: {
@@ -255,13 +285,10 @@ function createChart(chart) {
             scales:{
                 xAxes: [{
                     display: false,
-                    gridLines: {
-                        display: false
-                    }
                 }],
                 yAxes: [{
                     ticks: {
-                        fontColor: '#fff'
+                        fontColor: '#fff',
                     }
                 }]
             },
@@ -269,23 +296,20 @@ function createChart(chart) {
                 padding: {
                     right: 5
                 }
+            },
+            legend: {
+                display: false
             }
         }
         data = {
             labels: chart.labels,
-            datasets: [
-            {
+            datasets: [{
                 label: chart.title,
                 data: chart.rates,
                 backgroundColor: chart.colors,
-            }
-            ]
+            }]
         }
     }
-    // Mutual properties
-    options.title.display = true;
-    options.fontSize = 25;
-    options.fontColor = '#fff';
 
     charts[chart.type][chart.chart] = new Chart(chart.ctx, {
         type: chart.type,

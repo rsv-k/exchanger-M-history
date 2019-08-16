@@ -7,14 +7,17 @@ body {
     background: #202832;
     font-family: Arial, Helvetica, sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .container {
     width: 100%;
     height: 100vh;
 }
 
 .header {
-    margin: 10px 0;
-    width: 100%;
+    margin: 10px auto;
+    width: 80%;
     text-align: center;
     position: relative;
 }
@@ -28,6 +31,7 @@ body {
     padding: 10px;
     text-align: center;
 }
+
 .realcurrencies {
     margin-top: 5px;
 }
@@ -53,12 +57,27 @@ body {
 .table td:nth-child(odd) {
     background: #2C3844;
 }
+.table td:nth-child(1) {
+    width: 10%;
+    text-align: center;
+}
+.table td:nth-child(2), .table td:nth-child(6) {
+    width: 5%;
+}
+.table td:nth-child(3) .table td:nth-child(4) {
+    width: 20%;
+}
+.table td:nth-child(5) {
+    width: 40%;
+}
 
 .active { background: #FE6055 }
 .sale   { color: #00A65A }
 .buy    { color: #00C0EF }
-.bank   { display: flex }
 .bank__title { margin-left: 5px }
+.img, .bank__title {
+    vertical-align: middle;
+}
 
 .pagination {
     margin: 20px auto;
@@ -84,7 +103,6 @@ body {
     font-size: 1.2em;
 }
 .header__graphics, .header__history {
-    text-decoration: none;
     position: absolute;
     left: 10px;
     top: 10px;
@@ -120,4 +138,5 @@ body {
 .charts__container {
     width: 80vw;
     margin: 0 auto;
+    position: relative;
 }
