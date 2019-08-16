@@ -30,6 +30,7 @@ function onClickActive(e) {
     
     getTransactionsData(current_rlActive, current_wmActive);
     elem.classList.add('active');
+
 }
 
 async function getTransactionsData(RLcurrency, WMcurrency) {
@@ -37,6 +38,7 @@ async function getTransactionsData(RLcurrency, WMcurrency) {
     
     global.data = response.data.reverse();
     global.currentLength = global.data.length;
+    global.activeTable = null;
     global.buy = getSpecificType('buy');
     global.sale = getSpecificType('sale');
 
