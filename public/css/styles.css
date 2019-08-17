@@ -111,6 +111,7 @@ a {
     padding: 10px 20px;
     color: #fff;
     transition: all 0.5 ease;
+    z-index: 999;
 }
 .header__graphics:hover, .header__history:hover {
     border: 1px solid #00C0EF;
