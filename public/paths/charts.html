@@ -86,108 +86,97 @@
         buttons.forEach(item => item.classList.remove('active'));
     }
 
-    function displayCharts(rlCurrency, wmCurrency) {
-        axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())
-        .then(response => {
-            const dates = { labels: [], buy: {}, sale: {}, lineLabels_buy: [], lineLabels_sale: [], lineRates_buy: [], lineRates_sale: [], colorsBuy: [], colorsSale: [] };
-            const amountWm = {
-                buy: [],
-                sale: []
-            }
+    async function displayCharts(rlCurrency, wmCurrency) {
+        const response = (await axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())).data;
+        const dates = { labels: [], buy: {}, sale: {}, lineLabels_buy: [], lineLabels_sale: [], lineRates_buy: [], lineRates_sale: [], colorsBuy: [], colorsSale: [] };
+        const amountWm = {
+            buy: [],
+            sale: []
+        }
 
-            for (let i = 0; i < response.data.length; i++) {
-                const item = response.data[i];
-                const date = item.FinishedAt.substring(0, 10);
-                const type = item.BidsHistoryType;
-                
-                if (!dates.labels.includes(date)) dates.labels.push(date);
-
-                const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate 
-                : 
-                (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
-
-                amountWm[type].push(+item.AmountWm.replace(',', '.'));
-                dates[`lineRates_${type}`].push(rate);
-                dates[`lineLabels_${type}`].push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
-                
-                dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
-            }
-            const colors = {
-                buy: [],
-                sale: []
-            }
-            let divisor = current_wmActive === 'WMR' ? 50000 : 500;
-            let min = current_wmActive === 'WMR' ? 1000 : 100;
-
-            for (let i = 0; i < amountWm.buy.length; i++) {
-                // if (amountWm.buy[i] < min) colors.buy.push(`hsla(0, 190%, 50%, 1)`);
-                colors.buy.push(`rgb(255, ${20 + Math.min(100, Math.floor((amountWm.buy[i] / divisor) * 100))}, 0)`);
-            }
-
-            for (let i = 0; i < amountWm.sale.length; i++) {
-                // if (amountWm.sale[i] < min) colors.sale.push(`hsla(120, 0%, 50%, 1)`);
-                colors.sale.push(`rgb(255, ${155 + Math.min(100, Math.floor((amountWm.sale[i] / divisor) * 100))}, 0)`);
-            }
+        for (let i = 0; i < response.length; i++) {
+            const item = response[i];
+            const date = item.FinishedAt.substring(0, 10);
+            const type = item.BidsHistoryType;
             
-            const line = {
-                ctx: ctx_lineBuy,
-                chart: 'buy',
-                labels: dates.lineLabels_buy,
-                rates: dates.lineRates_buy,
-                title: 'Покупка',
-                colors: colors.buy,
-                type: 'line',
-                text: 'покупки'
-            }
-            const bar = {
-                ctx: ctx_days,
-                chart: 'days',
-                labels: dates.labels,
-                buy: Object.values(dates.buy),
-                sale: Object.values(dates.sale),
-                title: 'Дни',
-                type: 'bar',
-            }
+            if (!dates.labels.includes(date)) dates.labels.push(date);
+
+            const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate 
+            : 
+            (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
+
+            amountWm[type].push(+item.AmountWm.replace(',', '.'));
+            dates[`lineRates_${type}`].push(rate);
+            dates[`lineLabels_${type}`].push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
+            
+            dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
+        }
+        const colors = { buy: [], sale: [] }
+        let divisor = current_wmActive === 'WMR' ? 50000 : 500;
+        let min = current_wmActive === 'WMR' ? 1000 : 100;
+
+        for (let i = 0; i < Math.max(amountWm.buy.length, amountWm.sale.length); i++) {
+            if (amountWm.buy[i]) colors.buy.push(`rgb(255, ${20 + Math.min(100, Math.floor((amountWm.buy[i] / divisor) * 100))}, 0)`);
+            if (amountWm.sale[i]) colors.sale.push(`rgb(255, ${155 + Math.min(100, Math.floor((amountWm.sale[i] / divisor) * 100))}, 0)`);
+        }
+            
+        const line = {
+            ctx: ctx_lineBuy,
+            chart: 'buy',
+            labels: dates.lineLabels_buy,
+            rates: dates.lineRates_buy,
+            title: 'Покупка',
+            colors: colors.buy,
+            type: 'line',
+            text: 'покупки'
+        }
+        const bar = {
+            ctx: ctx_days,
+            chart: 'days',
+            labels: dates.labels,
+            buy: Object.values(dates.buy),
+            sale: Object.values(dates.sale),
+            title: 'Дни',
+            type: 'bar',
+        }
         
-            createChart(line);
-            line.ctx = ctx_lineSale;
-            line.chart = 'sale';
-            line.labels = dates.lineLabels_sale;
-            line.rates = dates.lineRates_sale;
-            line.title = 'Продажа';
-            line.colors = colors.sale;
-            line.text = 'продажи';
-            createChart(line);
-            createChart(bar);
+        createChart(line);
+        line.ctx = ctx_lineSale;
+        line.chart = 'sale';
+        line.labels = dates.lineLabels_sale;
+        line.rates = dates.lineRates_sale;
+        line.title = 'Продажа';
+        line.colors = colors.sale;
+        line.text = 'продажи';
+        createChart(line);
+        createChart(bar);
 
-            const weeks = {
-                buy: [],
-                sale: [],
-                labels: []
-            }
+        const weeks = {
+            buy: [],
+            sale: [],
+            labels: []
+        }
 
-            const maxLen = Math.max(bar.buy.length, bar.sale.length);
+        const maxLen = Math.max(bar.buy.length, bar.sale.length);
             
-            for (let i = 0, p = 0; i < maxLen; i++) {
-                if (i !== 0 && i % 7 === 0) p++;
+        for (let i = 0, p = 0; i < maxLen; i++) {
+            if (i !== 0 && i % 7 === 0) p++;
 
-                if (bar.sale[i]) weeks.sale[p] = +((weeks.sale[p] || 0) + bar.sale[i]).toFixed(1);
-                if (bar.buy[i]) weeks.buy[p] = +((weeks.buy[p] || 0 ) + bar.buy[i]).toFixed(1);
-            }
+            if (bar.sale[i]) weeks.sale[p] = +((weeks.sale[p] || 0) + bar.sale[i]).toFixed(1);
+            if (bar.buy[i]) weeks.buy[p] = +((weeks.buy[p] || 0 ) + bar.buy[i]).toFixed(1);
+        }
             
-            for (let i = 0, p = 0; i < dates.labels.length; i += 6) {
-                weeks.labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
-            }
+        for (let i = 0; i < dates.labels.length; i += 7) {
+            weeks.labels.push(`${dates.labels[i]} - ${dates.labels[i + 7] || dates.labels[dates.labels.length - 1]}`);
+        }
 
-            bar.ctx = ctx_weeks;
-            bar.labels = weeks.labels;
-            bar.buy = weeks.buy;
-            bar.sale = weeks.sale;
-            bar.chart = 'weeks';
-            bar.title = 'Недели';
-            createChart(bar);
-    })
-    .catch(err => console.error(err));
+        bar.ctx = ctx_weeks;
+        bar.labels = weeks.labels;
+        bar.buy = weeks.buy;
+        bar.sale = weeks.sale;
+        bar.chart = 'weeks';
+        bar.title = 'Недели';
+        createChart(bar);
     }
 
 
