@@ -167,7 +167,7 @@
         }
             
         for (let i = 0; i < dates.labels.length; i += 7) {
-            weeks.labels.push(`${dates.labels[i]} - ${dates.labels[i + 7] || dates.labels[dates.labels.length - 1]}`);
+            weeks.labels.push(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
         }
 
         bar.ctx = ctx_weeks;
