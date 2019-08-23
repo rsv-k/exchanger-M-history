@@ -19,8 +19,26 @@ currencyButtons.forEach(btn => { btn.addEventListener('click', onClickActive) })
 
 function onClickActive(e) {
     const elem = e.currentTarget;
-    if (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm) return;
+    const ebtn = document.querySelector('.e-top').className.includes('active');
+    if (!ebtn && (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm)) {
+        return;
+    }
 
+    if (ebtn) {
+        const ebuttons = [...document.querySelectorAll('.e-btn')];
+        ebuttons.forEach(btn => btn.classList.remove('active'));
+
+        if (e.currentTarget.className.includes('rlBtn')) {
+            const wmcurrency = document.querySelector('.wmcurrencies').children;
+            wmcurrency[0].classList.add('active');
+            currentActive.wm = 'WMR';
+        }
+        else {
+            const rlcurrency = document.querySelector('.realcurrencies').children;
+            rlcurrency[0].classList.add('active');
+            currentActive.rl = 'RUB';
+        }
+    }
     changeActive(elem);
     
     const typeActive = elem.className.includes('wmBtn') ? 'wm' : 'rl';

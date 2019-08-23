@@ -3,7 +3,7 @@ const currentActive = {
     rl: 'RUB'
 }
 const chartsContainer = document.querySelector('.charts');
-const buttons = [...document.querySelectorAll('.btn')];
+const buttons = [...document.querySelectorAll('.btn__top')];
 const ctx_lineBuy = document.getElementById('myChart_line_buy').getContext('2d');
 const ctx_lineSale = document.getElementById('myChart_line_sale').getContext('2d');
 const ctx_days = document.getElementById('myChart_days').getContext('2d');
@@ -25,7 +25,24 @@ displayCharts(currentActive.rl, currentActive.wm);
 
 function currentCurrency(e) {
     const elem = e.currentTarget;
-    if (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm) return;
+    const ebtn = document.querySelector('.e-top').className.includes('active');
+
+    if ( !ebtn && (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm)) return;
+    if (ebtn) {
+        const ebuttons = [...document.querySelectorAll('.e-btn')];
+        ebuttons.forEach(btn => btn.classList.remove('active'));
+
+        if (elem.className.includes('rlBtn')) {
+            const wmcurrency = document.querySelector('.wmcurrencies').children;
+            wmcurrency[0].classList.add('active');
+            currentActive.wm = 'WMR';
+        }
+        else {
+            const rlcurrency = document.querySelector('.realcurrencies').children;
+            rlcurrency[0].classList.add('active');
+            currentActive.rl = 'RUB';
+        }
+    }
 
     changeActive(elem);
     
@@ -33,35 +50,85 @@ function currentCurrency(e) {
     currentActive[typeActive] = elem.innerText
     displayCharts(currentActive.rl, currentActive.wm);
 }
+const Ebuttons = document.querySelectorAll('.buttons')[1];
+Ebuttons.addEventListener('click', e => {
+    let elem = e.target;
+    if (elem.className.includes('e-top')) {
+        buttons.forEach(btn => btn.classList.remove('active'));
 
-async function displayCharts(rlCurrency, wmCurrency) {
-    const response = (await axios.get(`/history/${rlCurrency}-${wmCurrency}/api`.toLowerCase())).data;
-    const dates = { labels: [], buy: {}, sale: {}, lineLabels_buy: [], lineLabels_sale: [], lineRates_buy: [], lineRates_sale: [], colorsBuy: [], colorsSale: [] };
+        const e_bottom = document.querySelector('.first');
+        elem.classList.add('active');
+        e_bottom.classList.add('active');
+
+        currentActive['rl'] = 'RUB';
+        currentActive['wm'] = 'WMR';
+        displayCharts('ERUB', 'E' + currentActive.wm);
+    }
+    else if (elem.className.includes('e-bottom') || elem.parentElement.className.includes('e-bottom')) {
+        if (elem.parentElement.className.includes('e-bottom')) elem = elem.parentElement;
+
+        buttons.forEach(btn => btn.classList.remove('active'));
+        const e_top = document.querySelector('.e-top');
+        const e_bottom = document.querySelectorAll('.e-bottom');
+        e_bottom.forEach(btn => btn.classList.remove('active'));
+
+        elem.classList.add('active');
+        e_top.classList.add('active');
+        currentActive['rl'] = 'RUB';
+        if (elem.className.includes('first')) currentActive.wm = 'WMR';
+        else currentActive.wm = 'WMZ';
+        displayCharts('ERUB', 'E' + currentActive.wm);
+    }
+});
+
+async function requestData(rl, wm) {
+    return (await axios.get(`/history/${rl}-${wm}/api`.toLowerCase())).data;
+}
+function calculateRate(item) {
+    return currentActive.rl === 'RUB' && currentActive.wm === 'WMR' ? item.Rate : 
+    (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
+}
+function fillAxes(dates, amountWm, response) {
+    const item = response;
+    const date = item.FinishedAt.substring(0, 10);
+    const type = item.BidsHistoryType;
+    
+    if (!dates.labels.includes(date)) dates.labels.unshift(date);
+
+    const rate = calculateRate(item);
+
+    amountWm[type].unshift(+item.AmountWm.replace(',', '.'));
+    dates[`lineRates_${type}`].unshift(rate);
+    dates[`lineLabels_${type}`].unshift(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
+    
+    dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
+}
+async function displayCharts(rl, wm) {
+    const response = await requestData(rl, wm);
+    const dates = { 
+        labels: [],
+        buy: {},
+        sale: {},
+        lineLabels_buy: [], 
+        lineLabels_sale: [],
+        lineRates_buy: [], 
+        lineRates_sale: [], 
+        colorsBuy: [], 
+        colorsSale: [] 
+    };
     const amountWm = {
         buy: [],
         sale: []
     }
 
     for (let i = 0; i < response.length; i++) {
-        const item = response[i];
-        const date = item.FinishedAt.substring(0, 10);
-        const type = item.BidsHistoryType;
-        
-        if (!dates.labels.includes(date)) dates.labels.push(date);
-
-        const rate = rlCurrency === 'RUB' && wmCurrency === 'WMR' ? item.Rate 
-        : 
-        (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
-
-        amountWm[type].push(+item.AmountWm.replace(',', '.'));
-        dates[`lineRates_${type}`].push(rate);
-        dates[`lineLabels_${type}`].push(item.FinishedAt + '\n' + 'Количество: ' + item.AmountWm);
-        
-        dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
+        fillAxes(dates, amountWm, response[i]);
     }
+
     const colors = { buy: [], sale: [] }
+
     let divisor = currentActive.wm === 'WMR' ? 50000 : 500;
-    let min = currentActive.wm === 'WMR' ? 1000 : 100;
+    // let min = currentActive.wm === 'WMR' ? 1000 : 100;
 
     for (let i = 0; i < Math.max(amountWm.buy.length, amountWm.sale.length); i++) {
         if (amountWm.buy[i]) colors.buy.push(`rgb(255, ${20 + Math.min(100, Math.floor((amountWm.buy[i] / divisor) * 100))}, 0)`);
@@ -143,17 +210,17 @@ async function displayCharts(rlCurrency, wmCurrency) {
 
 
 function updateLine(chart) {
-charts.line[chart.chart].data.labels = chart.labels;
-charts.line[chart.chart].data.datasets[0].data = chart.rates;
-charts.line[chart.chart].data.datasets[0].backgroundColor = chart.colors;
-charts.line[chart.chart].update();
+    charts.line[chart.chart].data.labels = chart.labels;
+    charts.line[chart.chart].data.datasets[0].data = chart.rates;
+    charts.line[chart.chart].data.datasets[0].backgroundColor = chart.colors;
+    charts.line[chart.chart].update();
 }
 
 function updateBar(chart) {
-charts.bar[chart.chart].data.labels = chart.labels;
-charts.bar[chart.chart].data.datasets[0].data = chart.buy;
-charts.bar[chart.chart].data.datasets[1].data = chart.sale;
-charts.bar[chart.chart].update();
+    charts.bar[chart.chart].data.labels = chart.labels;
+    charts.bar[chart.chart].data.datasets[0].data = chart.buy;
+    charts.bar[chart.chart].data.datasets[1].data = chart.sale;
+    charts.bar[chart.chart].update();
 }
 
 

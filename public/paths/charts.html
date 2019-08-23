@@ -13,23 +13,38 @@
         <a href="../index.html" class="header__history">История</a>
         <div class="header">
             <div class="buttons">
-                    <div class="wmcurrencies">
-                        <button class = 'btn wmBtn active' id = "wmr">
-                            <img class = 'currency_img' src="../Content/Images/currencies/wmr.png" alt="">
-                            <span class = 'currency_value'>WMR</span></button>
-                        <button class = 'btn wmBtn' id = "wmz">
-                            <img class = 'currency_img' src="../Content/Images/currencies/wmz.png" alt="">
-                            <span class = 'currency_value'>WMZ</span></button>
-                    </div>
-                    <div class="realcurrencies">
-                        <button class = 'btn rlBtn active' id = "rub">
-                            <img class = 'currency_img' src="../Content/Images/currencies/rub.png" alt="">
-                            <span class = 'currency_value'>RUB</span></button>
-                        <button class = 'btn rlBtn' id = "uah">
-                            <img class = 'currency_img' src="../Content/Images/currencies/uah.png" alt="">
-                            <span class = 'currency_value'>UAH</span></button>
-                    </div>
+                <div class="wmcurrencies">
+                    <button class = 'btn btn__top wmBtn active' id = "wmr">
+                        <img class = 'currency_img' src="../Content/Images/currencies/wmr.png" alt="">
+                        <span class = 'currency_value'>WMR</span></button>
+                    <button class = 'btn btn__top wmBtn' id = "wmz">
+                        <img class = 'currency_img' src="../Content/Images/currencies/wmz.png" alt="">
+                        <span class = 'currency_value'>WMZ</span></button>
                 </div>
+                <div class="realcurrencies">
+                    <button class = 'btn btn__top rlBtn active' id = "rub">
+                        <img class = 'currency_img' src="../Content/Images/currencies/rub.png" alt="">
+                        <span class = 'currency_value'>RUB</span></button>
+                    <button class = 'btn btn__top rlBtn' id = "uah">
+                        <img class = 'currency_img' src="../Content/Images/currencies/uah.png" alt="">
+                        <span class = 'currency_value'>UAH</span></button>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="emoney-top">
+                    <button class="btn wmBtn e-btn e-top">Emoney</button>
+                </div>
+                <div class="emoney-bottom">
+                    <button class = "btn e-btn rlBtn e-bottom first">
+                        <img src="../Content/Images/currencies/rub.png" alt="" class="currency_img">
+                        <span class="currency_value">WMR / RUB</span>
+                    </button>
+                    <button class = "btn e-btn rlBtn e-bottom second">
+                        <img src="../Content/Images/currencies/wmz.png" alt="" class="currency_img">
+                        <span class="currency_value">WMZ / RUB</span>
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="charts">
                 <div class="chart__container">
@@ -72,7 +87,4 @@
 <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.3"></script>
 <script src= "../scripts/charts.js"></script>
-<script>
-    
-</script>
 </html>
