@@ -21,7 +21,7 @@ const charts = {
 }
 
 buttons.forEach(btn => btn.addEventListener('click', currentCurrency))
-displayCharts(currentActive.rl, currentActive.wm);
+displayCharts(currentActive.rl, currentActive.wm, 'today');
 
 function currentCurrency(e) {
     const elem = e.currentTarget;
@@ -48,7 +48,7 @@ function currentCurrency(e) {
     
     const typeActive = elem.className.includes('wmBtn') ? 'wm' : 'rl';
     currentActive[typeActive] = elem.innerText
-    displayCharts(currentActive.rl, currentActive.wm);
+    displayCharts(currentActive.rl, currentActive.wm, 'today');
 }
 const Ebuttons = document.querySelectorAll('.buttons')[1];
 Ebuttons.addEventListener('click', e => {
@@ -81,8 +81,8 @@ Ebuttons.addEventListener('click', e => {
     }
 });
 
-async function requestData(rl, wm) {
-    return (await axios.get(`/history/${rl}-${wm}/api`.toLowerCase())).data;
+async function requestData(rl, wm, time) {
+    return (await axios.get(`/history/${rl}-${wm}/api?time=${time}`.toLowerCase())).data;
 }
 function calculateRate(item) {
     return currentActive.rl === 'RUB' && currentActive.wm === 'WMR' ? item.Rate : 
@@ -103,8 +103,8 @@ function fillAxes(dates, amountWm, response) {
     
     dates[type][date] = +((dates[type][date]  || 0 ) + (+item.AmountWm.replace(',', '.'))).toFixed(1);
 }
-async function displayCharts(rl, wm) {
-    const response = await requestData(rl, wm);
+async function displayCharts(rl, wm, time) {
+    const response = await requestData(rl, wm, time);
     const dates = { 
         labels: [],
         buy: {},
@@ -194,7 +194,21 @@ async function displayCharts(rl, wm) {
     createChart(bar);
 }
 
+document.querySelector('.chart__buttons').addEventListener('click', e => {
+    const elem = e.target;
+    if (elem.className.includes('active')) return;
+    let rl = currentActive.rl;
+    let wm = currentActive.wm;
+    if (document.querySelector('.e-top').className.includes('active')) {
+        rl = 'E' + rl;
+        wm = 'E' + wm;
+    }
 
+    if (elem.className.includes('today')) displayCharts(rl, wm, 'today');
+    else if (elem.className.includes('threedays')) displayCharts(rl, wm, 'threedays');
+    else if (elem.className.includes('week')) displayCharts(rl, wm, 'week');
+    else if (elem.className.includes('month')) displayCharts(rl, wm, 'month');
+});
 
 
 

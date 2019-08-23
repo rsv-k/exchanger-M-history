@@ -150,7 +150,13 @@ a {
     padding: 10px 20px;
     outline: 1px solid rgba(255, 255, 255, 0.1);
 }
+.chart__buttons {
+    display: inline-block;
+}
 
 .e-btn {
     width: 100px;
+}
+.charts {
+    text-align: center;
 }

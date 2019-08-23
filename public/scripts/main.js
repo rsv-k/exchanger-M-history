@@ -50,7 +50,7 @@ function onClickActive(e) {
 }
 
 async function getTransactionsData(rl, wm) {
-    const response = (await axios.get(`/history/${rl}-${wm}/api`.toLowerCase())).data;
+    const response = (await axios.get(`/history/${rl}-${wm}/api?`.toLowerCase())).data;
     
     global.data = response;
     global.pages = Math.ceil(response.length / 20);

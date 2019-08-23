@@ -47,36 +47,24 @@
             </div>
         </div>
         <div class="charts">
+                <div class="chart__buttons">
+                    <a href="#" class="today chart__button active">За день</a>
+                    <a href="#" class="threedays chart__button">За 3 дня</a>
+                    <a href="#" class="week chart__button">За неделю</a>
+                    <a href="#" class="month chart__button">За все время</a>
+                </div>
                 <div class="chart__container">
-                        <div class="chart__buttons">
-                            <a href="#" class="chart__button active">За день</a>
-                            <a href="#" class="chart__button">За 3 дня</a>
-                            <a href="#" class="chart__button">За неделю</a>
-                            <a href="#" class="chart__button">За все время</a>
-                        </div>
-                        <canvas id = "myChart_line_buy"></canvas>
-                    </div>
-                    <div class="chart__container">
-                        <div class="chart__buttons">
-                            <a href="#" class="chart__button active">За день</a>
-                            <a href="#" class="chart__button">За 3 дня</a>
-                            <a href="#" class="chart__button">За неделю</a>
-                            <a href="#" class="chart__button">За все время</a>
-                        </div>
-                        <canvas id = "myChart_line_sale"></canvas>
-                    </div>
-                    <div class="chart__container">
-                        <div class="chart__buttons">
-                            <a href="#" class="chart__button active">За день</a>
-                            <a href="#" class="chart__button">За 3 дня</a>
-                            <a href="#" class="chart__button">За неделю</a>
-                            <a href="#" class="chart__button">За все время</a>
-                        </div>
-                        <canvas id = "myChart_days"></canvas>
-                    </div>
-                    <div class="chart__container">
-                        <canvas id = "myChart_weeks" ></canvas>
-                    </div>
+                    <canvas id = "myChart_line_buy"></canvas>
+                </div>
+                <div class="chart__container">
+                    <canvas id = "myChart_line_sale"></canvas>
+                </div>
+                <div class="chart__container">
+                    <canvas id = "myChart_days"></canvas>
+                </div>
+                <div class="chart__container">
+                    <canvas id = "myChart_weeks" ></canvas>
+                </div>
         </div>
     </div>
 </body>
