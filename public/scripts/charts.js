@@ -149,8 +149,8 @@ async function displayCharts(rl, wm) {
         ctx: ctx_days,
         chart: 'days',
         labels: dates.labels,
-        buy: Object.values(dates.buy),
-        sale: Object.values(dates.sale),
+        buy: Object.values(dates.buy).reverse(),
+        sale: Object.values(dates.sale).reverse(),
         title: 'Дни',
         type: 'bar',
     }
@@ -182,7 +182,7 @@ async function displayCharts(rl, wm) {
     }
         
     for (let i = 0; i < dates.labels.length; i += 7) {
-        weeks.labels.push(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
+        weeks.labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
     }
 
     bar.ctx = ctx_weeks;
