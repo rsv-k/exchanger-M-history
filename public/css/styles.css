@@ -20,8 +20,13 @@ a {
     width: 80%;
     text-align: center;
     position: relative;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
-
+.buttons {
+    margin: 0 10px;
+}
 .btn {
     background: none;
     outline: 0;
@@ -29,8 +34,8 @@ a {
     color: #fff;
     width: 60px;
     padding: 10px;
-    text-align: center;
 }
+
 
 .realcurrencies {
     margin-top: 5px;
@@ -131,13 +136,21 @@ a {
     .bank__title {
         margin: 0;
     }
-    .table td {
-        height: 80px;
-    }
 }
 
-.charts__container {
+.chart__container {
     width: 80vw;
     margin: 0 auto;
     position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+.chart__button {
+    color: #fff;
+    padding: 10px 20px;
+    outline: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.e-btn {
+    width: 100px;
 }

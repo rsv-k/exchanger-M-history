@@ -25,7 +25,9 @@ const history = {
     RUB_WMR: mongoose.model('RUB_WMR', Transaction),
     RUB_WMZ: mongoose.model('RUB_WMZ', Transaction),
     UAH_WMR: mongoose.model('UAH_WMZ', Transaction),
-    UAH_WMZ: mongoose.model('UAH_WMR', Transaction)
+    UAH_WMZ: mongoose.model('UAH_WMR', Transaction),
+    ERUB_EWMR: mongoose.model('ERUB_EWMR', Transaction),
+    ERUB_EWMZ: mongoose.model('ERUB_EWMZ', Transaction)
 }
 
 app.use(express.static('public'));
@@ -38,10 +40,12 @@ setInterval(() => {
     console.log('data has been added to database');
 }, 300000);
 
-app.get('/history/rub-wmr/api', async (req, res) => res.send(await history.RUB_WMR.find()) );
-app.get('/history/rub-wmz/api', async (req, res) => res.send(await history.RUB_WMZ.find()) );
-app.get('/history/uah-wmr/api', async (req, res) => res.send(await history.UAH_WMR.find()) );
-app.get('/history/uah-wmz/api', async (req, res) => res.send(await history.UAH_WMZ.find()) );
+app.get('/history/rub-wmr/api', async (req, res) => res.send((await history.RUB_WMR.find()).reverse()) );
+app.get('/history/rub-wmz/api', async (req, res) => res.send((await history.RUB_WMZ.find()).reverse()) );
+app.get('/history/uah-wmr/api', async (req, res) => res.send((await history.UAH_WMR.find()).reverse()) );
+app.get('/history/uah-wmz/api', async (req, res) => res.send((await history.UAH_WMZ.find()).reverse()) );
+app.get('/history/erub-ewmr/api', async (req, res) => res.send((await history.ERUB_EWMR.find()).reverse()) );
+app.get('/history/erub-ewmz/api', async (req, res) => res.send((await history.ERUB_EWMZ.find()).reverse()) );
 
 app.listen(port, () => {
     console.log(`istening on port ${port}!`);
@@ -49,8 +53,8 @@ app.listen(port, () => {
     .then(res => console.log('Connected to db'));
 });
 
-function getCurrencyData(id, currency) {
-    request(`https://exchanger.money/cards/bids/bidshistorylist?Id=${id}`, (err, res, body) => {
+function getCurrencyData(section, id, currency) {
+    request(`https://exchanger.money/${section}/bids/bidshistorylist?Id=${id}`, (err, res, body) => {
         if (err) return console.error(err);
         const data = JSON.parse(body).Bids;
         
@@ -65,6 +69,7 @@ async function saveData(data, toWhere) {
         
         transactions.unshift(data[i]);
     }
+
     if (transactions.length) {
         history[toWhere].collection.insertMany(transactions, (err, res) => {
             if (err) console.error(err);
@@ -72,8 +77,11 @@ async function saveData(data, toWhere) {
     }
 }
 async function requestCurrenciesData() {
-    getCurrencyData(2,  'RUB_WMR');
-    getCurrencyData(67, 'RUB_WMZ');
-    getCurrencyData(73, 'UAH_WMR');
-    getCurrencyData(69, 'UAH_WMZ');
+    getCurrencyData('cards', 2, 'RUB_WMR');
+    getCurrencyData('cards', 67,'RUB_WMZ');
+    getCurrencyData('cards', 73,'UAH_WMR');
+    getCurrencyData('cards', 69,'UAH_WMZ');
+
+    getCurrencyData('emoney', 68, 'ERUB_EWMZ');
+    getCurrencyData('emoney', 1, 'ERUB_EWMR');
 }

@@ -1,16 +1,14 @@
-const currencyButtons = [...document.querySelectorAll('.btn')];
+const currencyButtons = [...document.querySelectorAll('.btn__top')];
 const tbody = document.querySelector('.table>tbody');
 const pageNumber = document.querySelector('.pagination__current');
-let current_rlActive = 'RUB';
-let current_wmActive = 'WMR';
+
+const currentActive = {
+    wm: 'WMR',
+    rl: 'RUB'
+}
 let global = {
     data: [],
-    buy: [],
-    sale: [],
-    currentLength: null,
-    buyLength: null,
-    saleLength: null,
-    amount: 0,
+    pages: 0,
     activeTable: null
 };
 
@@ -21,42 +19,35 @@ currencyButtons.forEach(btn => { btn.addEventListener('click', onClickActive) })
 
 function onClickActive(e) {
     const elem = e.currentTarget;
-    if (elem.innerText === current_rlActive || elem.innerText === current_wmActive) return;
+    if (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm) return;
 
+    changeActive(elem);
+    
     const typeActive = elem.className.includes('wmBtn') ? 'wm' : 'rl';
-    removeActive(typeActive);
-
-    typeActive === 'wm' ? current_wmActive = elem.innerText : current_rlActive = elem.innerText;
+    currentActive[typeActive] = elem.innerText;
     
-    getTransactionsData(current_rlActive, current_wmActive);
-    elem.classList.add('active');
-
+    getTransactionsData(currentActive.rl, currentActive.wm);
+    
+    pageNumber.innerText = 1;
 }
 
-async function getTransactionsData(RLcurrency, WMcurrency) {
-    const response = await axios.get(`/history/${RLcurrency}-${WMcurrency}/api`.toLowerCase());
+async function getTransactionsData(rl, wm) {
+    const response = (await axios.get(`/history/${rl}-${wm}/api`.toLowerCase())).data;
     
-    global.data = response.data.reverse();
-    global.currentLength = global.data.length;
-    global.activeTable = null;
-    global.buy = getSpecificType('buy');
-    global.sale = getSpecificType('sale');
-
-    addToTable(global.data, WMcurrency, RLcurrency);
+    global.data = response;
+    global.pages = Math.ceil(response.length / 20);
+    
+    changeColumns();
+    addToTable(global.data.slice(0, 20));
 }
 
-function addToTable(data, WMcurrency, RLcurrency) {
-    let until = Math.min(global.amount + 20, data.length);
+function addToTable(data) {
+    tbody.innerHTML = '';
 
-    changeColumns(WMcurrency, RLcurrency);
-    let rows = ``;
-
-    for (let i = global.amount; i < until; i++) {
+    for (let i = 0; i < data.length; i++) {
         makeRatePrecise(data[i]);
-        rows += createRow(data[i]);
+        tbody.innerHTML += createRow(data[i]);
     }
-    tbody.innerHTML = rows;
-    pageNumber.innerText = Math.floor(global.amount / 20 + 1);
 }
 function createRow(data) {
     return `<tr class = "table__row">
@@ -67,44 +58,48 @@ function createRow(data) {
         <td>${data.AmountWm}</td>
         <td>${data.Amount}</td>
         <td class = bank>
-            <img src = '${data.CardIcon}' class = 'img'/>
-            <span class = 'bank__title'>${data.BankName}</span>
+            <img src = '${data.CardIcon || data.Provider.Icon}' class = 'img'/>
+            <span class = 'bank__title'>${data.BankName || data.Provider.Name}</span>
         </td>
-        <td class = 'center rate'>${current_wmActive === 'WMR' && current_rlActive === 'RUB' ? data.RateFormatted + '%' : data.Rate}</td>
+        <td class = 'center rate'>${currentActive.wm === 'WMR' && currentActive.rl === 'RUB' ? data.RateFormatted + '%' : data.Rate}</td>
     </tr>`;
 }
-function changeColumns(WMcurrency, RLcurrency) {
+function changeColumns() {
     const currencyAmounts = document.querySelectorAll('.table__currencyAmount');
-    currencyAmounts[0].innerText = `Количество ${WMcurrency}`;
-    currencyAmounts[1].innerText = `Количество ${RLcurrency}`;
-}
-function removeActive(type) {
-    const pageNumber = document.querySelector('.pagination__current');
-    pageNumber.innerText = 1;
-
-    global.amount = 0;
-    const buttons = [...document.querySelectorAll(`.${type}Btn`)];
-
-    buttons.forEach(item => item.classList.remove('active'));
+    currencyAmounts[0].innerText = `Количество ${currentActive.wm}`;
+    currencyAmounts[1].innerText = `Количество ${currentActive.rl}`;
 }
 
 const pages = document.querySelector('.pagination');
 pages.addEventListener('click', e => {
     e.preventDefault();
     const btn = e.target;
+    if(!btn.className.includes('pagination__btn')) return;
     
-    if (btn.className.includes('first')) onPageChange(0);
-    else if (btn.className.includes('prev')) onPageChange(global.amount - 20);
-    else if (btn.className.includes('next')) onPageChange(global.amount + 20);
-    else if (btn.className.includes('last')) onPageChange(Math.floor(global.currentLength / 20) * 20);
+    if (btn.className.includes('first')) pageNumber.innerText = 1;
+    else if (btn.className.includes('prev')) {
+        if (pageNumber.innerText - 1 < 1) return;
+        pageNumber.innerText--;
+    }
+    else if (btn.className.includes('next')) {
+        if (+pageNumber.innerText + 1 > global.pages) return;
+        pageNumber.innerText++;
+    }
+    else if (btn.className.includes('last')) pageNumber.innerText = global.pages;
+
+    pageChange();
 });
 
-function onPageChange(value) {
-    if (value >= global.currentLength || value < 0) return;
-    global.amount = value;
-    
-    addToTable(global[global.activeTable] || global.data, current_wmActive, current_rlActive);
+function pageChange() {
+    const option = global.activeTable || global.data;
+
+    const from = (pageNumber.innerText - 1) * 20;
+    const to = from + 20;
+    const data = option.slice(from, to);
+
+    addToTable(data);
 }
+
 function makeRatePrecise(data) {
     if (data.RateFormatted.includes("+") || data.RateFormatted.includes("-")) return;
 
@@ -115,21 +110,66 @@ function makeRatePrecise(data) {
 }
 
 tbody.addEventListener('click', e => {
-    const elem = e.target.className;
-    if (!elem.includes('type')) return;
-    const type = elem.split(' ')[0];
-    global.activeTable = global.activeTable === null ? type : null;
-    global.currentLength = global[global.activeTable] ? global[global.activeTable].length : global.data.length;
+    const elem = e.target;
+    const type = elem.className.split(' ')[0];
 
-    addToTable(global[global.activeTable] || global.data, current_rlActive, current_wmActive);
+    if (elem.className.includes('type')) displaySpecificData('BidsHistoryType', type);
+    else if (elem.className.includes('bank__title')) displaySpecificData('BankName', elem.innerText);
 });
+function displaySpecificData(property, value) {
+    global.activeTable = global.activeTable === null ? getSpecificType(property, value) : null;
+    const data = global.activeTable || global.data;
 
-function getSpecificType(type) {
+    global.pages = Math.ceil(data.length / 20);
+
+    addToTable(data.slice(0, 20));
+    pageNumber.innerText = 1;
+}
+
+function getSpecificType(property, value) {
     let specific = [];
     let data = global.data;
     for (let i = 0; i < data.length; i++) {
-        if (data[i].BidsHistoryType === type) specific.push(data[i]);
+        if (property === 'BankName' && document.querySelector('.e-top').className.includes('active') && data[i].Provider.Name === value) specific.push(data[i]);
+        else if (data[i][property] === value) specific.push(data[i]);
     }
 
     return specific;
 }
+
+const buttons = document.querySelectorAll('.buttons')[1];
+buttons.addEventListener('click', e => {
+    let elem = e.target;
+    if (elem.className.includes('e-top')) {
+        currencyButtons.forEach(btn => btn.classList.remove('active'));
+
+        const e_bottom = document.querySelector('.first');
+        elem.classList.add('active');
+        e_bottom.classList.add('active');
+
+        currentActive['rl'] = 'RUB';
+        currentActive['wm'] = 'WMR';
+
+        pageNumber.innerText = 1;
+        getTransactionsData('ERUB', 'E' + currentActive.wm);
+    }
+    else if (elem.className.includes('e-bottom') || elem.parentElement.className.includes('e-bottom')) {
+        if (elem.parentElement.className.includes('e-bottom')) elem = elem.parentElement;
+
+        currencyButtons.forEach(btn => btn.classList.remove('active'));
+        const e_top = document.querySelector('.e-top');
+        const e_bottom = document.querySelectorAll('.e-bottom');
+        e_bottom.forEach(btn => btn.classList.remove('active'));
+
+        elem.classList.add('active');
+        e_top.classList.add('active');
+        currentActive['rl'] = 'RUB';
+        if (elem.className.includes('first')) currentActive['wm'] = 'WMR';
+        else currentActive['wm'] = 'WMZ';
+        pageNumber.innerText = 1;
+
+        getTransactionsData('ERUB', 'E' + currentActive.wm);
+
+    }
+
+});
