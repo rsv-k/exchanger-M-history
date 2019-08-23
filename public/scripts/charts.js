@@ -185,13 +185,15 @@ async function displayCharts(rl, wm, time) {
         weeks.labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
     }
 
-    bar.ctx = ctx_weeks;
-    bar.labels = weeks.labels;
-    bar.buy = weeks.buy;
-    bar.sale = weeks.sale;
-    bar.chart = 'weeks';
-    bar.title = 'Недели';
-    createChart(bar);
+    if (time === 'month' || time === 'all') {
+        bar.ctx = ctx_weeks;
+        bar.labels = weeks.labels;
+        bar.buy = weeks.buy;
+        bar.sale = weeks.sale;
+        bar.chart = 'weeks';
+        bar.title = 'Недели';
+        createChart(bar);
+    }
 }
 
 document.querySelector('.chart__buttons').addEventListener('click', e => {
