@@ -1,5 +1,17 @@
+const http = require('http');
 const express = require('express');
 const app = express();
+app.get('/', (req, res) => {
+    console.log(Date.now() + ' Ping Recieved');
+    res.sendStatus(200);
+});
+
+setInterval(() => {
+    http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`)
+}, 280000);
+
+
+
 const port = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
