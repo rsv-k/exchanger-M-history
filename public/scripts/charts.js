@@ -28,6 +28,7 @@ function currentCurrency(e) {
     const ebtn = document.querySelector('.e-top').className.includes('active');
 
     if ( !ebtn && (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm)) return;
+
     if (ebtn) {
         const ebuttons = [...document.querySelectorAll('.e-btn')];
         ebuttons.forEach(btn => btn.classList.remove('active'));
@@ -35,12 +36,12 @@ function currentCurrency(e) {
         if (elem.className.includes('rlBtn')) {
             const wmcurrency = document.querySelector('.wmcurrencies').children;
             wmcurrency[0].classList.add('active');
-            currentActive.wm = 'WMR';
+            currentActive.wm = 'EWMR';
         }
         else {
             const rlcurrency = document.querySelector('.realcurrencies').children;
             rlcurrency[0].classList.add('active');
-            currentActive.rl = 'RUB';
+            currentActive.rl = 'ERUB';
         }
     }
 
@@ -60,9 +61,9 @@ Ebuttons.addEventListener('click', e => {
         elem.classList.add('active');
         e_bottom.classList.add('active');
 
-        currentActive['rl'] = 'RUB';
-        currentActive['wm'] = 'WMR';
-        displayCharts('ERUB', 'E' + currentActive.wm);
+        currentActive['rl'] = 'ERUB';
+        currentActive['wm'] = 'EWMR';
+        displayCharts('ERUB', currentActive.wm, 'today');
     }
     else if (elem.className.includes('e-bottom') || elem.parentElement.className.includes('e-bottom')) {
         if (elem.parentElement.className.includes('e-bottom')) elem = elem.parentElement;
@@ -74,18 +75,18 @@ Ebuttons.addEventListener('click', e => {
 
         elem.classList.add('active');
         e_top.classList.add('active');
-        currentActive['rl'] = 'RUB';
-        if (elem.className.includes('first')) currentActive.wm = 'WMR';
-        else currentActive.wm = 'WMZ';
-        displayCharts('ERUB', 'E' + currentActive.wm);
+        currentActive['rl'] = 'ERUB';
+        if (elem.className.includes('first')) currentActive.wm = 'EWMR';
+        else currentActive.wm = 'EWMZ';
+        displayCharts('ERUB', currentActive.wm, 'today');
     }
 });
 
 async function requestData(rl, wm, time) {
-    return (await axios.get(`/history/${rl}-${wm}/api?time=${time}`.toLowerCase())).data;
+    return (await axios.get(`/api/history/${rl}_${wm}/time/${time}`)).data;
 }
 function calculateRate(item) {
-    return currentActive.rl === 'RUB' && currentActive.wm === 'WMR' ? item.Rate : 
+    return currentActive.rl.includes('RUB') && currentActive.wm.includes('WMR') ? item.Rate : 
     (item.Amount.replace(',', '.') / item.AmountWm.replace(',', '.')).toFixed(4);
 }
 function fillAxes(dates, amountWm, response) {
@@ -105,6 +106,7 @@ function fillAxes(dates, amountWm, response) {
 }
 async function displayCharts(rl, wm, time) {
     const response = await requestData(rl, wm, time);
+
     const dates = { 
         labels: [],
         buy: {},
@@ -185,7 +187,7 @@ async function displayCharts(rl, wm, time) {
         weeks.labels.unshift(`${dates.labels[i]} - ${dates.labels[i + 6] || dates.labels[dates.labels.length - 1]}`);
     }
 
-    if (time === 'month' || time === 'all') {
+    if (time === 'month') {
         bar.ctx = ctx_weeks;
         bar.labels = weeks.labels;
         bar.buy = weeks.buy;
@@ -207,7 +209,7 @@ document.querySelector('.chart__buttons').addEventListener('click', e => {
     }
 
     if (elem.className.includes('today')) displayCharts(rl, wm, 'today');
-    else if (elem.className.includes('threedays')) displayCharts(rl, wm, 'threedays');
+    else if (elem.className.includes('threedays')) displayCharts(rl, wm, 'three');
     else if (elem.className.includes('week')) displayCharts(rl, wm, 'week');
     else if (elem.className.includes('month')) displayCharts(rl, wm, 'month');
 });

@@ -8,21 +8,23 @@ const currentActive = {
 }
 let global = {
     data: [],
-    pages: 0,
-    activeTable: null
+    pages: 1,
+    lastPage: undefined,
+    activeTable: null,
+    size: undefined,
+    activeData: 'common',
+    bank: null
 };
 
-// Display at the beginning
-getTransactionsData('RUB', 'WMR');
+// Display table with data in the beginning
+getTransactionsData(currentActive.rl, currentActive.wm);
 
 currencyButtons.forEach(btn => { btn.addEventListener('click', onClickActive) });
 
 function onClickActive(e) {
     const elem = e.currentTarget;
     const ebtn = document.querySelector('.e-top').className.includes('active');
-    if (!ebtn && (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm)) {
-        return;
-    }
+    if (!ebtn && (elem.innerText === currentActive.rl || elem.innerText === currentActive.wm)) return;
 
     if (ebtn) {
         const ebuttons = [...document.querySelectorAll('.e-btn')];
@@ -43,6 +45,7 @@ function onClickActive(e) {
     
     const typeActive = elem.className.includes('wmBtn') ? 'wm' : 'rl';
     currentActive[typeActive] = elem.innerText;
+    global.pages = 1;
     
     getTransactionsData(currentActive.rl, currentActive.wm);
     
@@ -50,13 +53,45 @@ function onClickActive(e) {
 }
 
 async function getTransactionsData(rl, wm) {
-    const response = (await axios.get(`/history/${rl}-${wm}/api?`.toLowerCase())).data;
+    global.activeData = 'common';
+    const response = (await axios.get(`/api/history/${rl}_${wm}/page/${global.pages}`)).data;
     
-    global.data = response;
-    global.pages = Math.ceil(response.length / 20);
-    
+    global.data = response.data;
+    global.size = Math.floor(response.pagesAmount / 20);
+
     changeColumns();
-    addToTable(global.data.slice(0, 20));
+    addToTable(global.data);
+}
+async function getBuysData(rl, wm) {
+    global.activeData = 'buys';
+    const response = (await axios.get(`/api/history/${rl}_${wm}/buys/page/${global.pages}`)).data;
+
+    global.data = response.data;
+    global.size = Math.floor(response.pagesAmount / 20);
+
+    changeColumns();
+    addToTable(global.data);
+}
+async function getSalesData(rl, wm) {
+    global.activeData = 'sales';
+    const response = (await axios.get(`/api/history/${rl}_${wm}/sales/page/${global.pages}`)).data;
+
+    global.data = response.data;
+    global.size = Math.floor(response.pagesAmount / 20);
+
+    changeColumns();
+    addToTable(global.data);
+}
+
+async function getBanksData(rl, wm) {
+    global.activeData = 'banks';
+    const response = (await axios.get(`/api/history/${rl}_${wm}/banks/${global.bank}/page/${global.pages}`)).data;
+
+    global.data = response.data;
+    global.size = Math.floor(response.pagesAmount / 20);
+
+    changeColumns();
+    addToTable(global.data);
 }
 
 function addToTable(data) {
@@ -66,26 +101,6 @@ function addToTable(data) {
         makeRatePrecise(data[i]);
         tbody.innerHTML += createRow(data[i]);
     }
-}
-function createRow(data) {
-    return `<tr class = "table__row">
-        <td>${data.FinishedAt}</td>
-        <td class = '${data.BidsHistoryType} center type'>
-        ${data.BidsHistoryType === 'sale' ? 'продажа' : 'покупка'}
-        </td>
-        <td>${data.AmountWm}</td>
-        <td>${data.Amount}</td>
-        <td class = bank>
-            <img src = '${data.CardIcon || data.Provider.Icon}' class = 'img'/>
-            <span class = 'bank__title'>${data.BankName || data.Provider.Name}</span>
-        </td>
-        <td class = 'center rate'>${currentActive.wm === 'WMR' && currentActive.rl === 'RUB' ? data.RateFormatted + '%' : data.Rate}</td>
-    </tr>`;
-}
-function changeColumns() {
-    const currencyAmounts = document.querySelectorAll('.table__currencyAmount');
-    currencyAmounts[0].innerText = `Количество ${currentActive.wm}`;
-    currencyAmounts[1].innerText = `Количество ${currentActive.rl}`;
 }
 
 const pages = document.querySelector('.pagination');
@@ -97,25 +112,28 @@ pages.addEventListener('click', e => {
     if (btn.className.includes('first')) pageNumber.innerText = 1;
     else if (btn.className.includes('prev')) {
         if (pageNumber.innerText - 1 < 1) return;
+
         pageNumber.innerText--;
     }
     else if (btn.className.includes('next')) {
-        if (+pageNumber.innerText + 1 > global.pages) return;
+        if (+pageNumber.innerText + 1 > global.size) return;
+
         pageNumber.innerText++;
     }
-    else if (btn.className.includes('last')) pageNumber.innerText = global.pages;
+    else if (btn.className.includes('last')) pageNumber.innerText = global.size;
+
+    global.pages = pageNumber.innerText;
 
     pageChange();
 });
 
 function pageChange() {
-    const option = global.activeTable || global.data;
-
-    const from = (pageNumber.innerText - 1) * 20;
-    const to = from + 20;
-    const data = option.slice(from, to);
-
-    addToTable(data);
+    if (global.activeData === 'common') {
+        getTransactionsData(currentActive.rl, currentActive.wm);
+    }
+    else if (global.activeData === 'buys') getBuysData(currentActive.rl, currentActive.wm);
+    else if (global.activeData === 'sales') getSalesData(currentActive.rl, currentActive.wm);
+    else if (global.activeData === 'banks') getBanksData(currentActive.rl, currentActive.wm);
 }
 
 function makeRatePrecise(data) {
@@ -131,9 +149,28 @@ tbody.addEventListener('click', e => {
     const elem = e.target;
     const type = elem.className.split(' ')[0];
 
-    if (elem.className.includes('type')) displaySpecificData('BidsHistoryType', type);
-    else if (elem.className.includes('bank__title')) displaySpecificData('BankName', elem.innerText);
+    if (elem.className.includes('type')) {
+        if (elem.innerText === 'продажа') {
+            if (global.activeData !== 'common') return getTransactionsData(currentActive.rl, currentActive.wm);
+
+            getSalesData(currentActive.rl, currentActive.wm);
+        }
+        else {
+            if (global.activeData !== 'common') return getTransactionsData(currentActive.rl, currentActive.wm);
+
+            getBuysData(currentActive.rl, currentActive.wm);
+        }
+        global.pages = 1;
+    }
+    else if (elem.className.includes('bank__title')) {
+        if (global.activeData !== 'common') return getTransactionsData(currentActive.rl, currentActive.wm);
+
+        global.pages = 1;
+        global.bank = elem.innerText;
+        getBanksData(currentActive.rl, currentActive.wm);
+    }
 });
+
 function displaySpecificData(property, value) {
     global.activeTable = global.activeTable === null ? getSpecificType(property, value) : null;
     const data = global.activeTable || global.data;
@@ -165,11 +202,11 @@ buttons.addEventListener('click', e => {
         elem.classList.add('active');
         e_bottom.classList.add('active');
 
-        currentActive['rl'] = 'RUB';
-        currentActive['wm'] = 'WMR';
+        currentActive['rl'] = 'ERUB';
+        currentActive['wm'] = 'EWMR';
 
         pageNumber.innerText = 1;
-        getTransactionsData('ERUB', 'E' + currentActive.wm);
+        getTransactionsData(currentActive.rl, currentActive.wm);
     }
     else if (elem.className.includes('e-bottom') || elem.parentElement.className.includes('e-bottom')) {
         if (elem.parentElement.className.includes('e-bottom')) elem = elem.parentElement;
@@ -181,13 +218,38 @@ buttons.addEventListener('click', e => {
 
         elem.classList.add('active');
         e_top.classList.add('active');
-        currentActive['rl'] = 'RUB';
-        if (elem.className.includes('first')) currentActive['wm'] = 'WMR';
-        else currentActive['wm'] = 'WMZ';
+        currentActive['rl'] = 'ERUB';
+        if (elem.className.includes('first')) currentActive['wm'] = 'EWMR';
+        else currentActive['wm'] = 'EWMZ';
         pageNumber.innerText = 1;
 
-        getTransactionsData('ERUB', 'E' + currentActive.wm);
-
+        getTransactionsData(currentActive.rl, currentActive.wm);
     }
-
 });
+
+/*======================== 
+TABLE CREATION AND CHANGES
+========================*/
+
+// Create row in a table with information in columns
+function createRow(data) {
+    return `<tr class = "table__row">
+        <td>${data.FinishedAt}</td>
+        <td class = '${data.BidsHistoryType} center type'>
+        ${data.BidsHistoryType === 'sale' ? 'продажа' : 'покупка'}
+        </td>
+        <td>${data.AmountWm}</td>
+        <td>${data.Amount}</td>
+        <td class = bank>
+            <img src = '${data.CardIcon || data.Provider.Icon}' class = 'img'/>
+            <span class = 'bank__title'>${data.BankName || data.Provider.Name}</span>
+        </td>
+        <td class = 'center rate'>${currentActive.wm === 'WMR' && currentActive.rl === 'RUB' ? data.RateFormatted + '%' : data.Rate}</td>
+    </tr>`;
+}
+// Change currency in main columns' name
+function changeColumns() {
+    const currencyAmounts = document.querySelectorAll('.table__currencyAmount');
+    currencyAmounts[0].innerText = `Количество ${currentActive.wm}`;
+    currencyAmounts[1].innerText = `Количество ${currentActive.rl}`;
+}
